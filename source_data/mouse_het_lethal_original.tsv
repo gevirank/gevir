@@ -1,0 +1,847 @@
+Subject Primary Identifier	Ontology Annotation Subject . Symbol	Base Annotations Subject . Symbol	Subject Background	Subject Zygosity	Ontology Annotation Ontology Term . Identifier	Ontology Annotation Term Name
+MGI:109533	Abcb7	Abcb7<tm1.1Mdf>/Abcb7<+>	involves: 129S4/SvJae * FVB	ht	MP:0002080	prenatal lethality
+MGI:87866	Acadl	Acadl<tm1Uab>/Acadl<+>	involves: 129S6/SvEvTac * C57BL/6NTac	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:87874	Ace	Ace<tm1Unc>/Ace<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:87911	Acvr1	Acvr1<tm1Emsh>/Acvr1<+>	C57BL/6-Acvr1<tm1Emsh>	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1338946	Acvrl1	Acvrl1<tm1Spo>/Acvrl1<tm1Enl>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1096335	Adam17	Adam17<tm1a(EUCOMM)Wtsi>/Adam17<+>	involves: C57BL/6 * C57BL/6N	ht	MP:0010831	lethality, incomplete penetrance
+MGI:1916320	Adamts9	Adamts9<Mhdaund3>/Adamts9<tm1.2Cvrk>	involves: 129S6/SvEvTac * C3HeB/FeJ * C57BL/6NTac * FVB/N	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:1916320	Adamts9	Adamts9<tm1Dgen>/Adamts9<tm1.2Apte>	involves: 129P2/OlaHsd * 129S4/SvJae * C57BL/6 * SJL	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1889575	Adar	Adar<tm2Knk>/Adar<+>	chimera involves: 129S1/Sv * 129X1/SvJ * FVB/N	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1100819	Aff1	Aff1<Rob>/Aff1<+>	involves: BALB/cAnNCrl * C3H/HeN	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1913799	Aggf1	Aggf1<Gt(PT036)Byg>/Aggf1<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1913799	Aggf1	Aggf1<tm1Qkw>/Aggf1<+>	involves: 129 * C57BL/6	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1349419	Aifm1	Aifm1<tm2.1Pngr>/Aifm1<+>	involves: 129P2/OlaHsd * FVB/N	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:2178217	Akap9	Akap9<tm1a(KOMP)Wtsi>/Akap9<+>	involves: C57BL/6 * C57BL/6N	ht	MP:0010831	lethality, incomplete penetrance
+MGI:107928	Aldh1a2	Aldh1a2<tm1Dll>/Aldh1a2<tm1Ipc>	involves: CD-1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:88039	Apc	Apc<Min>/Apc<tm1Tno>	involves: 129/Sv * 129S4/SvJae * C57BL/6	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:88039	Apc	Apc<Min>/Apc<tm1Tno>	involves: 129/Sv * 129S4/SvJae * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:88039	Apc	Apc<tm1.1Tno>/Apc<tm1Tno>	involves: 129/Sv * 129S4/SvJae * BALB/cJ * C57BL/6	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:88042	Apex1	Apex1<tm1Ecf>/Apex1<+>	either: (involves: 129/Sv) or (involves: 129/Sv * C57BL/6)	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:88048	Apo	Apo/Apo<+>	involves: 101 * C3H	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:2152879	Apoca	Apoca/Apoca<+>	involves: 101 * C3H	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1913583	Aqp11	Aqp11<sjds>/Aqp11<tm1Lex>	involves: 129S5/SvEvBrd * BALB/cRl * C57BL/6 * CD-1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1929494	Arhgap35	Arhgap35<m1Bchd>/Arhgap35<tm1Jset>	involves: 129S2/SvPas * C3H/HeNCrl * C57BL/6J	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:2175912	Arid5b	Arid5b<tm1Whit>/Arid5b<+>	129S1/Sv-Arid5b<tm1Whit>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2175912	Arid5b	Arid5b<tm1Whit>/Arid5b<+>	involves: 129S1/Sv * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1928375	Arpc3	Arpc3<Tn(sb-lacZ,GFP)T5.117Jtak>/Arpc3<tm1Jtak>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011094	embryonic lethality before implantation, complete penetrance
+MGI:96920	Ascl2	Ascl2<tm1Alj>/Ascl2<+>	involves: 129 * CD-1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:109349	Atf2	Atf2<tm1Glm>/Atf2<+>	involves: 129S2/SvPas	ht	MP:0002082	postnatal lethality
+MGI:109349	Atf2	Atf2<tm1Glm>/Atf2<tm1Sis>	involves: 129S2/SvPas * C57BL/6 * CBA	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:104654	Atoh1	Atoh1<tm2Hzo>/Atoh1<tm3.1Hzo>	involves: 129S7/SvEvBrd * C57BL/6J * FVB/N * SJL	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:88107	Atp1a3	Atp1a3<tm1.1Tmklh>/Atp1a3<+>	B6JRj.129S1-Atp1a3<tm1.1Tmklh>	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:99400	Atp7a	Atp7a<Mo-11H>/Atp7a<+>	involves: 101/H * C3H/HeH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:99400	Atp7a	Atp7a<Mo-Tohm>/Atp7a<+>	B6.Cg-Atp7a<Mo-Tohm>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99400	Atp7a	Atp7a<Mo-dp2>/Atp7a<+>	Not Specified	ht	MP:0002082	postnatal lethality
+MGI:99400	Atp7a	Atp7a<Mo>/Atp7a<+>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99400	Atp7a	Atp7a<Mo>/Atp7a<+>	Not Specified	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:107168	Aurkb	Aurkb<tm1.2Mama>/Aurkb<tm2.2Mama>	involves: 129/Sv * BALB/cJ * C57BL/6 * CD-1 * SJL	ht	MP:0008762	embryonic lethality
+MGI:88125	Axd	Axd/Axd<+>	involves: ATBR3 * STOCK Cacna1s<mdg>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88125	Axd	Axd/Axd<+>	involves: BALB/cByJ * STOCK Cacna1s<mdg>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1096327	Axin1	Axin1<tm3Cos>/Axin1<tm4Cos>	involves: 129S6/SvEvTac * FVB/N	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:1270862	Axin2	Axin2<M1J>/Axin2<+>	C57BL/6J-Axin2<M1J>/GrsrJ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1270862	Axin2	Axin2<M1J>/Axin2<+>	involves: C57BL/6J * FVB/NJ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1919680	B4gat1	B4gat1<m1Ddg>/B4gat1<tm1(KOMP)Vlcg>	involves: C3H/He * C57BL/6 * C57BL/6NTac	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1929913	Bcl11b	Bcl11b<m1Jpk>/Bcl11b<tm1Jpk>	involves: BALB/c * C57BL/6 * C57BL/6NCrlj * CBA/JNCrlj	ht	MP:0011083	lethality at weaning, complete penetrance
+MGI:88180	Bmp4	Bmp4<tm1.1Jlch>/Bmp4<tm2Blh>	involves: 129S1/Sv * 129S6/SvEvTac * 129X1/SvJ * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88180	Bmp4	Bmp4<tm1.1Jlch>/Bmp4<tm2Blh>	involves: 129S1/Sv * 129S6/SvEvTac * 129X1/SvJ * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:88180	Bmp4	Bmp4<tm1Blh>/Bmp4<+>	B6.129S2-Bmp4<tm1Blh>/J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:88180	Bmp4	Bmp4<tm1Blh>/Bmp4<tm3.1Blh>	involves: 129S2/SvPas * 129S6/SvEvTac * Black Swiss	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:88180	Bmp4	Bmp4<tm1Blh>/Bmp4<tm3.1Blh>	involves: 129S2/SvPas * 129S6/SvEvTac * Black Swiss * ICR	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:88180	Bmp4	Bmp4<tm2Blh>/Bmp4<+>	B6.129S6-Bmp4<tm2Blh>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88180	Bmp4	Bmp4<tm3Blh>/Bmp4<+>	involves: 129S6/SvEvTac	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:88180	Bmp4	Bmp4<tm5.1Bhr>/Bmp4<tm2.1Blh>	involves: 129S6/SvEvTac * C57BL/6 * CBA * Swiss Webster	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:88181	Bmp5	Bmp5<se>/Bmp5<se-20H>	involves: C3H/HeH	ht	MP:0010770	preweaning lethality
+MGI:1095407	Bmpr2	Bmpr2<tm1Kmi>/Bmpr2<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1095407	Bmpr2	Bmpr2<tm1Kmi>/Bmpr2<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2444008	Bptf	Bptf<Gt(XG023)Byg>/Bptf<tm1.2Cwu>	involves: 129P2/OlaHsd * 129S1/Sv * C57BL/6	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:88190	Braf	Braf<tm1Bbd>/Braf<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1888520	Brd4	Brd4<Gt(pGT1.8TM)ST132Nimr>/Brd4<+>	involves: 129P2/Ola * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1100510	Bub1	Bub1<Gt(XG453)Byg>/Bub1<tm1.1Tvd>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1333889	Bub1b	Bub1b<tm1Jvd>/Bub1b<tm1.1Jvd>	involves: 129S6/SvEvTac	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1913493	C1galt1c1	C1galt1c1<tm1.2Rdcu>/C1galt1c1<+>	involves: 129S6/SvEvTac * C57BL/6J * FVB/N	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1913493	C1galt1c1	C1galt1c1<tm1.2Rdcu>/C1galt1c1<+>	involves: 129S6/SvEvTac * C57BL/6J * FVB/N	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:2142166	C2cd3	C2cd3<hty>/C2cd3<Gt(AG0177)Wtsi>	involves: 129P2/OlaHsd * C3H/He * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:109482	Cacna1a	Cacna1a<tm1Nobs>/Cacna1a<tm2Nobs>	involves: 129 * C57BL/6J	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:103013	Cacna1c	Cacna1c<tm2Itl>/Cacna1c<+>	involves: 129S6/SvEvTac * C57BL/6J * C57BL/6NTac	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1913208	Carm1	Carm1<tm1Mtb>/Carm1<+>	involves: 129S6/SvEvTac * Black Swiss	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99851	Cbfb	Cbfb<tm1Ppl>/Cbfb<+>	either: (involves: 129/Sv * 129S6/SvEvTac) or (involves: 129S6/SvEvTac * Black Swiss) or (involves: 129S6/SvEvTac * C57BL/6)	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99851	Cbfb	Cbfb<tm1Spe>/Cbfb<tm2.1Spe>	involves: 129S4/SvJae	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:99851	Cbfb	Cbfb<tm3Ppl>/Cbfb<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:99851	Cbfb	Cbfb<tm3Ppl>/Cbfb<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:99851	Cbfb	Cbfb<tm3Ppl>/Cbfb<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:88279	Cbl	Cbl<tm1Ddlb>/Cbl<tm2Wlan>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1289263	Ccdc39	Ccdc39<prh>/Ccdc39<tm1a(KOMP)Wtsi>	involves: A/J * C57BL/6N * FVB/N	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:109185	Ccn3	Ccn3<tm1Cabo>/Ccn3<+>	involves: 129S/SvEv	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1926446	Cd274	Cd274<tm1Igu>/Cd274<+>	involves: 129 * C57BL/6 * CBA/CaJ	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:88354	Cdh1	Cdh1<tm2Kem>/Cdh1<tm5(Cdh2)Kem>	involves: 129P2/OlaHsd * 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:88351	Cdk1	Cdk1<Gt(P009F08)Bbd>/Cdk1<Gt(pGT1-3)1Bbd>	involves: 129/Sv * 129P2/OlaHsd * 129X1/SvJ * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:88351	Cdk1	Cdk1<tm3.1Kald>/Cdk1<+>	involves: 129 * C57BL/6	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Bbd>/Cdkn1c<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Bbd>/Cdkn1c<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Kat>/Cdkn1c<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Kat>/Cdkn1c<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Kat>/Cdkn1c<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Sje>/Cdkn1c<+>	involves: 129 * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Sje>/Cdkn1c<+>	involves: 129S2/SvHsd * 129S7/SvEvBrd	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Sje>/Cdkn1c<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:104564	Cdkn1c	Cdkn1c<tm1Sje>/Cdkn1c<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:88361	Cdx2	Cdx2<tm1.2Aral>/Cdx2<tm1Fbe>	involves: 129X1/SvJ * C57BL/6 * SJL	ht	MP:0011094	embryonic lethality before implantation, complete penetrance
+MGI:88375	Cenpa	Cenpa<tm1Khac>/Cenpa<tm2Khac>	involves: 129 * 129S1/Sv * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:2448567	Chd2	Chd2<Gt(RRBO46)Byg>/Chd2<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2448567	Chd2	Chd2<Gt(RRBO46)Byg>/Chd2<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:2444748	Chd7	Chd7<Coa1>/Chd7<+>	involves: C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2444748	Chd7	Chd7<Coa1>/Chd7<+>	involves: C57BL/6J	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:2444748	Chd7	Chd7<Flo>/Chd7<+>	involves: C3HeB/FeJ	ht	MP:0002082	postnatal lethality
+MGI:2444748	Chd7	Chd7<Gt(S20-7E1)Sor>/Chd7<+>	involves: 129S1/SvImJ * 129S4/SvJae * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:2444748	Chd7	Chd7<Gt(XK403)Byg>/Chd7<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2444748	Chd7	Chd7<Gt(XK403)Byg>/Chd7<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:2444748	Chd7	Chd7<Whi>/Chd7<+>	involves: C3HeB/FeJ	ht	MP:0002082	postnatal lethality
+MGI:892979	Chm	Chm<tm1Jvdh>/Chm<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:892979	Chm	Chm<tm1Jvdh>/Chm<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:892979	Chm	Chm<tm1Jvdh>/Chm<+>	involves: 129P2/OlaHsd * C57BL/6 * SMZ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:5311862	Chy6	Chy6/Chy6<+>	involves: C3H/HeH	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:5313307	Chy7	Chy7/Chy7<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:108023	Cited1	Cited1<tm1Dunw>/Cited1<+>	B6.129P2-Cited1<tm1Dunw>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1306784	Cited2	Cited2<tm1Bha>/Cited2<+>	involves: 129P2/OlaHsd	ht	MP:0002082	postnatal lethality
+MGI:1306784	Cited2	Cited2<tm1Ycy>/Cited2<+>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1913287	Clec1b	Clec1b<tm1.1Ksi>/Clec1b<+>	involves: C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2447166	Cmtm7	Cmtm7<tm2a(EUCOMM)Hmgu>/Cmtm7<+>	involves: C57BL/6 * C57BL/6N	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:88431	Cnbp	Cnbp<m1Hrb>/Cnbp<+>	B6.129S4-Cnbp<m1Hrb>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88467	Col1a1	Col1a1<Aga2>/Col1a1<+>	C3HeB/FeJ-Col1a1<Aga2>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88467	Col1a1	Col1a1<Aga2>/Col1a1<+>	involves: C3HeB/FeJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88467	Col1a1	Col1a1<tm1.1Jcm>/Col1a1<+>	either: (involves: 129X1/SvJ * C3H/HeJ) or (involves: 129X1/SvJ * CD-1)	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88467	Col1a1	Col1a1<tm1.1Jcm>/Col1a1<+>	involves: 129X1/SvJ	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88467	Col1a1	Col1a1<tm1Jcm>/Col1a1<+>	either: (involves: 129X1/SvJ * C3H/HeJ) or (involves: 129X1/SvJ * CD-1)	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:88452	Col2a1	Col2a1<Dmm>/Col2a1<+>	involves: 101 * C3H	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88452	Col2a1	Col2a1<tm1(SOX9)Crm>/Col2a1<+>	129S/Sv-Col2a1<tm1(SOX9)Crm>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88452	Col2a1	Col2a1<tm1Prc>/Col2a1<+>	involves: 129/Sv * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:88454	Col4a1	Col4a1<Bru>/Col4a1<+>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88454	Col4a1	Col4a1<deltaex40>/Col4a1<+>	B6.129S-Col4a1<deltaex40>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1347046	Cop1	Cop1<Gt(XR0653)Wtsi>/Cop1<Gt(XR0653)1.1Wtsi>	involves: 129P2/OlaHsd * C57BL/6 * CBA	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:1354962	Copb2	Copb2<em1Rstot>/Copb2<em2Rstot>	involves: C57BL/6 * C57BL/6J * CD-1 * DBA/2	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1349409	Cops3	Cops3<tm1Jrl>/Cops3<tm2Jrl>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011097	embryonic lethality between somite formation and embryo turning, complete penetrance
+MGI:1098280	Crebbp	Crebbp<Gt(U-San)112Imeg>/Crebbp<+>	involves: C57BL/6 * CBA	ht	MP:0002082	postnatal lethality
+MGI:1098280	Crebbp	Crebbp<tm1Reck>/Crebbp<+>	involves: 129P2/OlaHsd	ht	MP:0002082	postnatal lethality
+MGI:1098280	Crebbp	Crebbp<tm1Reck>/Crebbp<+>	involves: 129P2/OlaHsd	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1098280	Crebbp	Crebbp<tm1Reck>/Crebbp<+>	involves: 129P2/OlaHsd	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1098280	Crebbp	Crebbp<tm1Reck>/Crebbp<+>	involves: 129P2/OlaHsd	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:1098280	Crebbp	Crebbp<tm1Sis>/Crebbp<+>	involves: BALB/c * C57BL/6 * CBA	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1098280	Crebbp	Crebbp<tm2Pkb>/Crebbp<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:2662567	Crsl	Crsl/Crsl<+>	involves: C3HeB/FeJ	ht	MP:0002082	postnatal lethality
+MGI:1920970	Cst6	Cst6<ichq>/Cst6<+>	involves: BALB/cJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:109447	Ctcf	Ctcf<tm1.1Laat>/Ctcf<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:88276	Ctnnb1	Ctnnb1<Bfc>/Ctnnb1<+>	either: (involves: BALB/cCrl * C3H/HeNCrl) or (involves: BALB/cCrl * C3H/HeNCrl * C57BL/6)	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:99695	Cttn	Cttn<tm1.2Dvst>/Cttn<+>	B6.Cg-Cttn<tm1.2Dvst>	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1347360	Cul3	Cul3<tm1.1Jdsr>/Cul3<tm1Jro>	involves: 129S4/SvJaeSor * C57BL/6 * SJL	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1347360	Cul3	Cul3<tm1Jdsr>/Cul3<tm1Jro>	involves: 129S4/SvJaeSor * C57BL/6 * SJL	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1919834	Cul4b	Cul4b<tm1.1Yxg>/Cul4b<+>	involves: 129X1/SvJ * FVB/N	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:1919834	Cul4b	Cul4b<tm1.1Yxg>/Cul4b<+>	involves: 129X1/SvJ * FVB/N	ht	MP:0011112	lethality during fetal growth through weaning, incomplete penetrance
+MGI:101912	Dad1	Dad1<tm1Kni>/Dad1<+>	involves: 129S/SvEv	ht	MP:0011106	embryonic lethality between implantation and somite formation, incomplete penetrance
+MGI:94863	Dbf	Dbf/Dbf<+>	involves: 101/H * C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:103064	Ddx3x	Ddx3x<tm1.2Lyou>/Ddx3x<+>	involves: 129 * C57BL/6	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:103064	Ddx3x	Ddx3x<tm1.2Lyou>/Ddx3x<+>	involves: 129 * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:3653212	Del(11Mpo-Chad)18Brd	Del(11Mpo-Chad)18Brd/+	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:5431226	Del(16App-Runx1)5Yah	Del(16App-Runx1)5Yah/+	involves: 129S1/Sv * 129X1/SvJ * BALB/c * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:3702641	Del(16Dgcr2-Hira)1Rak	Del(16Dgcr2-Hira)1Rak/+	involves: 129/Sv * 129S6/SvEvTac * C57BL/6 * FVB/N * SJL	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:3798957	Del(16Dgcr2-Hira)3Aam	Del(16Dgcr2-Hira)3Aam/+	involves: 129S1/Sv * 129S7/SvEvBrd * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:2677647	Del(16Es2el-Ufd1l)217Bld	Del(16Es2el-Ufd1l)217Bld/+	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:5305763	Del(16Tiam1-Kcnj6)7Yey	Del(16Tiam1-Kcnj6)7Yey/+	involves: 129S7/SvEvBrd	ht	MP:0011400	lethality, complete penetrance
+MGI:3701442	Del(16Zfp520-Slc25a1)1Awb	Del(16Zfp520-Slc25a1)1Awb/+	involves: 129S6/SvEvTac	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:3701442	Del(16Zfp520-Slc25a1)1Awb	Del(16Zfp520-Slc25a1)1Awb/+	involves: 129S6/SvEvTac * NIH Black Swiss	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:3840884	Del(2Cd44-Hoxd11)43Ddu	Del(2Cd44-Hoxd11)43Ddu/+	involves: 129S1/Sv * 129S2/SvPas * 129X1/SvJ	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:5587810	Del(2Gm13672-Hoxd11)68Ddu	Del(2Gm13672-Hoxd11)68Ddu/+	involves: 129S2/SvPas * C57BL/6 * SJL	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:3840883	Del(2Hoxd-Itga6)42Ddu	Del(2Hoxd-Itga6)42Ddu/+	involves: 129P2/OlaHsd * 129S2/SvPas	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:5508533	Del(2Hoxd1-Hoxd9)63Ddu	Del(2Hoxd1-Hoxd9)63Ddu/+	involves: C57BL/6 * CBA	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5587925	Del(2Nespas-Gnas)1Hju	Del(2Nespas-Gnas)1Hju/+	either: (involves: 129S4/SvJae) or (involves: 129S4/SvJae * C57BL/6J)	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:4440590	Del(4C4-C5)1Lap	Del(4C4-C5)1Lap/+	involves: 129S6/SvEvTac	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:4440590	Del(4C4-C5)1Lap	Del(4C4-C5)1Lap/+	involves: 129S6/SvEvTac	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:3798059	Del(5D5Mit148-Qdpr)2Jcs	Del(5D5Mit148-Qdpr)2Jcs/+	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:3798169	Del(5D5Mit73-D5Mit351)5Jcs	Del(5D5Mit73-D5Mit351)5Jcs/+	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:3798060	Del(5Letm1-D5Mit81)3Jcs	Del(5Letm1-D5Mit81)3Jcs/+	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:6150621	Del(7Chrna7-Fan1)3Arte	Del(7Chrna7-Fan1)3Arte/+	involves: C57BL/6J * C57BL/6NTac	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:3769761	Del(7Herc2-Mkrn3)13FRdni	Del(7Herc2-Mkrn3)13FRdni/+	involves: C57BL/6 * CD-1 * SJL	ht	MP:0002082	postnatal lethality
+MGI:3804026	Del(7Ifitm5-Ifitm6)1Masu	Del(7Ifitm5-Ifitm6)1Masu/+	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:3772922	Del(7Ins2-Tel)1Lef	Del(7Ins2-Tel)1Lef/+	involves: 129S1/Sv * 129X1/SvJ * ICR	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:4356429	Del(7Ipw-Snord116)1Jbro	Del(7Ipw-Snord116)1Jbro/+	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:5291501	Del(7Slx1b-Sept1)4Aam	Del(7Slx1b-Sept1)4Aam/+	involves: 129S7/SvEvBrd	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5291501	Del(7Slx1b-Sept1)4Aam	Del(7Slx1b-Sept1)4Aam/+	involves: 129S7/SvEvBrd * C57BL/6N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:3655807	Del(7Ube3a-Snrpn)1Alb	Del(7Ube3a-Snrpn)1Alb/+	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:3655807	Del(7Ube3a-Snrpn)1Alb	Del(7Ube3a-Snrpn)1Alb/+	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:4430113	Del(8A4-B3)7H	Del(8A4-B3)7H/+	involves: 101/H * C3H/HeH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:5583863	Del(8Pcid2-Cul4a)1Ktc	Del(8Pcid2-Cul4a)1Ktc/+	involves: 129S/SvEv * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:5584169	Del(XArmcx5-Nxf3)3Jw	Del(XArmcx5-Nxf3)3Jw/+	involves: 129S4/SvJae * C57BL/6 * FVB/N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5297603	Del(XNxf2-Nxf3)1Jw	Del(XNxf2-Nxf3)1Jw/+	involves: 129S4/SvJae * C57BL/6 * FVB	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:94889	Dh	Dh/Dh<+>	Not Specified	ht	MP:0002082	postnatal lethality
+MGI:94889	Dh	Dh/Dh<+>	Not Specified	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1298378	Dhcr7	Dhcr7<tm1Fdp>/Dhcr7<tm2Fdp>	involves: 129S4/SvJae	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1344352	Dido1	Dido1<tm1Cmar>/Dido1<tm2Cmar>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:94900	Dlk1	Dlk1<tm1.2Jvs>/Dlk1<+>	involves: 129P2/OlaHsd * C57BL/6 * FVB/N	ht	MP:0002058	neonatal lethality
+MGI:94900	Dlk1	Dlk1<tm1.2Jvs>/Dlk1<+>	involves: 129P2/OlaHsd * C57BL/6 * FVB/N	ht	MP:0002082	postnatal lethality
+MGI:104659	Dll1	Dll1<tm1Gos>/Dll1<tm2Gos>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0002081	perinatal lethality
+MGI:104659	Dll1	Dll1<tm1Gos>/Dll1<tm2Gos>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:1859388	Dll4	Dll4<tm1Grid>/Dll4<+>	either: (involves: 129X1/SvJ * Black Swiss) or (involves: 129X1/SvJ * C57BL/6J)	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:1859388	Dll4	Dll4<tm1Jrt>/Dll4<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1859388	Dll4	Dll4<tm1Jrt>/Dll4<+>	involves: 129S1/Sv * 129X1/SvJ * ICR	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1859388	Dll4	Dll4<tm1Nwg>/Dll4<+>	involves: 129S6/SvEvTac * C57BL/6 * C57BL/6NTac	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1859388	Dll4	Dll4<tm1Nwg>/Dll4<+>	involves: 129S6/SvEvTac * C57BL/6NTac * ICR	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:101926	Dlx5	Dlx5<tm1.1Levi>/Dlx5<+>	involves: 129P2/OlaHsd * C57BL/6 * DBA/2	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1919935	Dnajc6	Dnajc6<tm1Legr>/Dnajc6<+>	B6.129-Dnajc6<tm1Legr>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2447763	Dnd1	Dnd1<tm1Na>/Dnd1<+>	129S1.129S6-Dnd1<tm1Na>	ht	MP:0010831	lethality, incomplete penetrance
+MGI:2447763	Dnd1	Dnd1<tm1Na>/Dnd1<+>	129S1.129S6-Dnd1<tm1Na>	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:2447763	Dnd1	Dnd1<tm1Na>/Dnd1<Ter>	involves: 129P3/J * 129S6/SvEvTac	ht	MP:0010831	lethality, incomplete penetrance
+MGI:94912	Dnmt1	Dnmt1<MommeD2>/Dnmt1<+>	FVB/NJ-Dnmt1<MommeD2>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1261819	Dnmt3b	Dnmt3b<tm1.1Ics>/Dnmt3b<tm2.1Ics>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1261819	Dnmt3b	Dnmt3b<tm1Enl>/Dnmt3b<tm6Enl>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1261819	Dnmt3b	Dnmt3b<tm1Enl>/Dnmt3b<tm7Enl>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1261819	Dnmt3b	Dnmt3b<tm6Enl>/Dnmt3b<tm7Enl>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1261819	Dnmt3b	Dnmt3b<tm6Enl>/Dnmt3b<tm7Enl>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2151233	Dph1	Dph1<tm1Bhr>/Dph1<tm2Bhr>	involves: 129/Sv * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:2151233	Dph1	Dph1<tm1Bhr>/Dph1<tm2Bhr>	involves: 129/Sv * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:5696872	Dpmy	Dpmy/Dpmy<+>	B6NJ;CBA-Dpmy/GrsrJ	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2443967	Dpp9	Dpp9<tm1.1Mdg>/Dpp9<+>	involves: C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2443967	Dpp9	Dpp9<tm1.1Mdg>/Dpp9<+>	involves: C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:94929	Ds	Ds/Ds<+>	involves: 129T1/Sv * DA/Hu * DBA/1J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1196466	Dsg2	Dsg2<tm1Leu>/Dsg2<+>	either: (involves: 129S1/Sv * 129X1/SvJ) or (involves: 129S1/Sv * 129X1/SvJ * C57BL/6)	ht	MP:0011106	embryonic lethality between implantation and somite formation, incomplete penetrance
+MGI:1914853	Dusp6	Dusp6<tm1Sms>/Dusp6<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:2387107	Dusp9	Dusp9<tm1Skey>/Dusp9<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:107736	Dync2h1	Dync2h1<Gt(RRM278)Byg>/Dync2h1<lln>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1330299	Dyrk1a	Dyrk1a<tm1Mla>/Dyrk1a<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:107822	Ebp	Ebp<Td>/Ebp<+>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:107822	Ebp	Ebp<Td>/Ebp<+>	Not Specified	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:105923	Ednra	Ednra<tm1Hku>/Ednra<tm2.1Hku>	involves: 129 * C57BL/6 * ICR	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:105923	Ednra	Ednra<tm1Hku>/Ednra<tm3(Ednrb)Hku>	involves: 129 * C57BL/6 * ICR	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:105923	Ednra	Ednra<tm2.1Hku>/Ednra<tm3(Ednrb)Hku>	involves: 129 * C57BL/6 * ICR	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:105923	Ednra	Ednra<tm2Hku>/Ednra<tm3(Ednrb)Hku>	involves: 129 * C57BL/6 * ICR	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:1913393	Eef1e1	Eef1e1<Gt(OST377244)Lex>/Eef1e1<+>	involves: 129S5/SvEvBrd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95294	Egfr	Egfr<wa2>/Egfr<Wa5>	involves: BALB/cAnN * C3H/HeN * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95294	Egfr	Egfr<wa2>/Egfr<Wa5>	involves: BALB/cAnN * C3H/HeN * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1351744	Eif3m	Eif3m<tm1Nju>/Eif3m<tm1.1Nju>	involves: 129 * FVB/N	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:95388	Emx2	Emx2<Pdo>/Emx2<tm1Pgr>	involves: 129S1/Sv * 129X1/SvJ * BALB/c * C3H/HeN * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95389	En1	En1<tm1.1(Wnt1)Wrst>/En1<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1916888	Enho	Enho<tm1.1Butl>/Enho<+>	B6.Cg-Enho<tm1.1Butl>	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1276116	Ep300	Ep300<tm1Dli>/Ep300<+>	either: 129S4/SvJae or (involves: 129S4/SvJae * C57BL/6)	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1276116	Ep300	Ep300<tm1Reck>/Ep300<+>	involves: 129P2/OlaHsd	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:1276116	Ep300	Ep300<tm1Reck>/Ep300<+>	involves: 129P2/OlaHsd	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1276116	Ep300	Ep300<tm1Reck>/Ep300<+>	involves: 129P2/OlaHsd	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:103006	Epb41l5	Epb41l5<Gt(AE0088)Wtsi>/Epb41l5<lulu>	involves: C57BL/6J	ht	MP:0006206	embryonic lethality between somite formation and embryo turning
+MGI:103006	Epb41l5	Epb41l5<Gt(XC282)Byg>/Epb41l5<lulu>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:95410	Erbb2	Erbb2<tm1Cbm>/Erbb2<tm2.1Cbm>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:95410	Erbb2	Erbb2<tm4(Erbb2)Mul>/Erbb2<tm1Haus>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ * BALB/c	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:95410	Erbb2	Erbb2<tm6(Erbb2)Mul>/Erbb2<tm1Haus>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ * BALB/c	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:95410	Erbb2	Erbb2<tm7(Erbb2)Mul>/Erbb2<tm1Haus>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ * BALB/c	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:5502906	Etn2	Etn2<Sd>/Etn2<+>	involves: Danforth's duplication stock	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:95456	Ets2	Ets2<tm2Rgo>/Ets2<tm1Rgo>	involves: FVB/N	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:95456	Ets2	Ets2<tm2Rgo>/Ets2<tm5.2Rgo>	involves: 129/Sv * C57BL/6 * FVB/N	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:109336	Etv6	Etv6<tm1.1(RUNX1,hsb5)Lvdw>/Etv6<+>	involves: 129P2/OlaHsd * 129S4/SvJaeSor * 129S5/SvEvBrd * C57BL/6J	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:3578139	F10ex	F10ex/F10ex<+>	involves: C3HeB/FeJ * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:88381	F3	F3<tm1Dwr>/F3<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0002082	postnatal lethality
+MGI:2388266	Fam20a	Fam20a<tm1Lex>/Fam20a<+>	involves: 129S5/SvEvBrd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1914280	Fancl	Fancl<gcd>/Fancl<tm1Ceb>	involves: 129/Sv * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1914280	Fancl	Fancl<gcd>/Fancl<tm1Ceb>	involves: 129S7/SvEvBrd * C57BL/6J * CBA	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:95485	Fasn	Fasn<tm1Schi>/Fasn<+>	129S7/SvEvBrd-Fasn<tm1Schi>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95485	Fasn	Fasn<tm1Schi>/Fasn<+>	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95486	Fbl	Fbl<Gt(pGT1-3)1Jca>/Fbl<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2147134	Fbxo11	Fbxo11<Jf>/Fbxo11<Mutt>	involves: BALB/c * C3H/HeN	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1354695	Fbxw7	Fbxw7<tm1.1Iken>/Fbxw7<+>	involves: C57BL/6 * C57BL/6N	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:1916040	Fendrr	Fendrr<tm1Bgh>/Fendrr<tm2Bgh>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:95514	Fes	Fes<tm2Mcs>/Fes<+>	chimera involves: 129X1/SvJ * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1096383	Fgf15	Fgf15<tm1Sms>/Fgf15<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:99604	Fgf8	Fgf8<tm1.1Mrt>/Fgf8<tm1.2Mrt>	involves: 129P2/OlaHsd	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:99604	Fgf8	Fgf8<tm1.2Mrt>/Fgf8<tm1.4Mrt>	involves: 129P2/OlaHsd	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99604	Fgf8	Fgf8<tm1Mrc>/Fgf8<tm3Mrc>	involves: 129/Sv * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:104723	Fgf9	Fgf9<Eks>/Fgf9<+>	involves: C57BL/6J * DBA/2J	ht	MP:0011084	lethality at weaning, incomplete penetrance
+MGI:95522	Fgfr1	Fgfr1<tm1Jrt>/Fgfr1<tm2Jrt>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95522	Fgfr1	Fgfr1<tm1Jrt>/Fgfr1<tm2Jrt>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95522	Fgfr1	Fgfr1<tm1Jrt>/Fgfr1<tm4Jrt>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:95523	Fgfr2	Fgfr2<tm2.3Dsn>/Fgfr2<+>	involves: 129 * C57BL/6 * FVB/N	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95523	Fgfr2	Fgfr2<tm3Ewj>/Fgfr2<+>	B6.129-Fgfr2<tm3Ewj>	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95524	Fgfr3	Fgfr3<tm4.1Cxd>/Fgfr3<+>	involves: 129S6/SvEvTac	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:95524	Fgfr3	Fgfr3<tm4.1Cxd>/Fgfr3<+>	involves: 129S6/SvEvTac * NIH Black Swiss	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95556	Flna	Flna<tm1.2Caw>/Flna<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95556	Flna	Flna<tm1.2Caw>/Flna<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:95561	Flt4	Flt4<Chy>/Flt4<+>	involves: C3H	ht	MP:0002082	postnatal lethality
+MGI:95561	Flt4	Flt4<Chy>/Flt4<tm1Ali>	involves: C3H	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1309996	Fnld	Fnld/Fnld<+>	(C3H/HeH x 101/H)F1	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1347476	Foxa2	Foxa2<tm1Dnl>/Foxa2<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1347476	Foxa2	Foxa2<tm1Jrt>/Foxa2<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0002082	postnatal lethality
+MGI:1347476	Foxa2	Foxa2<tm1Jrt>/Foxa2<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:1347476	Foxa2	Foxa2<tm1Jrt>/Foxa2<+>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0002082	postnatal lethality
+MGI:1347470	Foxf1	Foxf1<tm1Rhc>/Foxf1<+>	involves: 129P3/J * Black Swiss	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1347470	Foxf1	Foxf1<tm1Rhc>/Foxf1<+>	involves: 129P3/J * Black Swiss * CD-1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1096329	Foxi1	Foxi1<tm1Sven>/Foxi1<+>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:95583	Fshr	Fshr<tm1Saco>/Fshr<+>	involves: 129/Sv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95583	Fshr	Fshr<tm1Saco>/Fshr<+>	involves: 129/Sv	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:105979	G6pdx	G6pdx<tm1Luz>/G6pdx<+>	involves: 129S1/Sv * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:108088	Gab1	Gab1<tm1Wbm>/Gab1<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95613	Gabra1	Gabra1<tm1.1Geh>/Gabra1<tm1.1Mjga>	B6J.Cg-Gabra1<tm1.1Geh> Gabra1<tm1.1Mjga>	ht	MP:0002082	postnatal lethality
+MGI:95613	Gabra1	Gabra1<tm2.1Geh>/Gabra1<+>	involves: 129X1/SvJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95640	Gapdh	Gapdh<M6Neu>/Gapdh<+>	C3.Cg-Gapdh<M6Neu>	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:95640	Gapdh	Gapdh<m4Neu>/Gapdh<+>	C3.Cg-Gapdh<m4Neu>	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:2449057	Gars	Gars<Gt(XM256)6Byg>/Gars<C201R>	involves: 129P2/OlaHsd * BALB/cAnN * C3H/HeH * C57BL/6J	ht	MP:0002080	prenatal lethality
+MGI:2449057	Gars	Gars<Gt(XM256)6Byg>/Gars<Nmf249>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:95661	Gata1	Gata1<tm5(GATA3)Sho>/Gata1<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:95661	Gata1	Gata1<tm5(GATA3)Sho>/Gata1<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:95664	Gata4	Gata4<tm1.2Wtp>/Gata4<+>	B6.Cg-Gata4<tm1.2Wtp>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:107516	Gata6	Gata6<tm1Hadj>/Gata6<+>	involves: 129S4/SvJae * C57BL/6  * CD-1	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95668	Gbx2	Gbx2<tm1.1Mrt>/Gbx2<tm1.2Alj>	involves: 129S1/Sv * 129S6/SvEvTac * 129X1/SvJ	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:107430	Gdnf	Gdnf<tm1Lmgd>/Gdnf<+>	either: (involves: 129/Sv) or (involves: 129/Sv * C57BL/6) or (involves: 129/Sv * CD-1)	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:95713	Gja1	Gja1<tm1.1Kwi>/Gja1<tm4Kwi>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95713	Gja1	Gja1<tm1Kdr>/Gja1<tm1.1Kwi>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6 * CBA/J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95713	Gja1	Gja1<tm3Gfi>/Gja1<+>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:95713	Gja1	Gja1<tm8.1Kwi>/Gja1<+>	involves: 129S2/SvPas * BALB/c * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:95720	Gjb2	Gjb2<tm3.2(Gjb1)Kwi>/Gjb2<+>	involves: 129P2/OlaHsd * BALB/c * C57BL/6 * SJL	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:95720	Gjb2	Gjb2<tm3.3(Gjb1)Kwi>/Gjb2<+>	involves: 129P2/OlaHsd * BALB/c * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:95728	Gli2	Gli2<tm1Alj>/Gli2<tm6.1Alj>	involves: 129/Sv * C57BL/6 * SJL	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:95729	Gli3	Gli3<Mos1>/Gli3<Xt-J>	involves: BALB/cJ * C3H/HeJ * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:95729	Gli3	Gli3<tm1Blnw>/Gli3<Xt-J>	involves: 129S1/Sv * 129X1/SvJ * C3H/HeJ * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95739	Glul	Glul<tm1Whla>/Glul<tm2Whla>	involves: 129P2/OlaHsd	ht	MP:0011097	embryonic lethality between somite formation and embryo turning, complete penetrance
+MGI:95775	Gnao1	Gnao1<tm2.1Rneu>/Gnao1<+>	B6.129S-Gnao1<tm2.1Rneu>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<Oedsml>/Gnas<+>	involves: 101/H * C3H/HeH	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95777	Gnas	Gnas<Oedsml>/Gnas<+>	involves: 101/H * C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<Oedsml>/Gnas<+>	involves: 101/H * C3H/HeH * M. m. castaneus	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95777	Gnas	Gnas<tm1.1Plag>/Gnas<+>	involves: 129S4/SvJae * C57BL/6 * C57BL/6J * SJL	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm1.1Plag>/Gnas<+>	involves: 129S4/SvJae * C57BL/6 * CD-1 * SJL	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm1.2Plag>/Gnas<+>	involves: 129S4/SvJae * BALB/cJ * C57BL/6 * CD-1 * SJL	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm1Kel>/Gnas<+>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95777	Gnas	Gnas<tm1Kel>/Gnas<+>	involves: 129S2/SvPas * C57BL/6J * CD-1	ht	MP:0002082	postnatal lethality
+MGI:95777	Gnas	Gnas<tm1Lsw>/Gnas<+>	involves: 129S4/SvJae * CD-1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm1Lsw>/Gnas<+>	involves: 129S4/SvJae * CD-1	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm2Jop>/Gnas<+>	involves: 129S/SvEv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm3Jop>/Gnas<+>	involves: 129S/SvEv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm3Kel>/Gnas<+>	involves: 129P2/OlaHsd * C57BL/6J * DS/2	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:95777	Gnas	Gnas<tm4Lsw>/Gnas<+>	involves: 129S6/SvEvTac * Black Swiss * CD-1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103232	Grb10	Grb10<Gt(Betageo)1Ward>/Grb10<+>	involves: C57BL/6 * CBA	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:95805	Grb2	Grb2<tm1Paw>/Grb2<tm2Paw>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:2655333	Grhl3	Grhl3<tm1Jane>/Grhl3<tm2.1Jane>	involves: 129S1/Sv * BALB/cJ	ht	MP:0011111	lethality during fetal growth through weaning, complete penetrance
+MGI:95809	Gria2	Gria2<tm1Rsp>/Gria2<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95809	Gria2	Gria2<tm2.1Rsp>/Gria2<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95819	Grin1	Grin1<tm1.1Slab>/Grin1<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95819	Grin1	Grin1<tm1Cur>/Grin1<tm1.1Phs>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95819	Grin1	Grin1<tm1Cur>/Grin1<tm2.1Phs>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:95819	Grin1	Grin1<tm2.1Phs>/Grin1<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:95819	Grin1	Grin1<tm2Slab>/Grin1<tm1.1Slab>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1861437	Gsk3b	Gsk3b<tm1Grc>/Gsk3b<tm1Jrw>	involves: 129 * 129S6/SvEvTac * CD-1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1101768	H3f3b	H3f3b<tm1.1Psk>/H3f3b<+>	involves: C57BL/6N * FVB/N	ht	MP:0010831	lethality, incomplete penetrance
+MGI:103577	Hand1	Hand1<tm1Jcc>/Hand1<tm2.1Jcc>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0010831	lethality, incomplete penetrance
+MGI:103577	Hand1	Hand1<tm1Jcc>/Hand1<tm2.1Jcc>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:103580	Hand2	Hand2<tm1Cse>/Hand2<tm1Dsr>	involves: 129S1/Sv * 129S7/SvEvBrd * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:103580	Hand2	Hand2<tm1Eno>/Hand2<tm2Eno>	involves: 129S6/SvEvTac * C57BL/6 * SJL	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1261831	Hap1	Hap1<tm1Id>/Hap1<tm2Id>	involves: 129S1/Sv * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:96014	Hba	Hba<b2(th)>/Hba<+>	involves: C57BL/6J * SEC	ht	MP:0002082	postnatal lethality
+MGI:96014	Hba	Hba<b3(th)>/Hba<+>	SEC-Hba<b3(th)>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96014	Hba	Hba<b3(th)>/Hba<+>	involves: C57BL/6J * SEC	ht	MP:0002082	postnatal lethality
+MGI:96014	Hba	Hba<th-J>/Hba<+>	involves: C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:96070	Hbegf	Hbegf<tm3Mek>/Hbegf<+>	involves: 129/Sv * C57BL/6 * CBA	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:108086	Hdac1	Hdac1<tm1Sei>/Hdac1<+>	either: (involves: 129P2/OlaHsd * 129/Sv) or (involves: 129P2/OlaHsd * C57BL/6)	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1917565	Hdac8	Hdac8<tm1.2Eno>/Hdac8<+>	involves: 129 * C57BL/6 * CD-1	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:96086	Hhex	Hhex<tm1.1Tmj>/Hhex<+>	involves: 129S1/Sv * FVB/N	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1929869	Hic2	Hic2<Gt(RRN127)Byg>/Hic2<+>	B6.129P2-Hic2<Gt(RRN127)Byg>	ht	MP:0010770	preweaning lethality
+MGI:1929869	Hic2	Hic2<Gt(RRN127)Byg>/Hic2<+>	B6.129P2-Hic2<Gt(RRN127)Byg>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:106918	Hif1a	Hif1a<tm1.1Mcs>/Hif1a<+>	involves: 129S6/SvEvTac	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1914053	Hmces	Hmces<em1Dfel>/Hmces<+>	involves: 129 * C57BL/6N	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1914053	Hmces	Hmces<em2Dfel>/Hmces<+>	involves: 129 * C57BL/6N	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:96173	Hoxa13	Hoxa13<Hd>/Hoxa13<+>	involves: MYA/Hu	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96175	Hoxa3	Hoxa3<tm1Mrc>/Hoxa3<tm2Nrm>	involves: 129S7/SvEvBrd * C3H * C57BL/6 * C57BL/6NHsd	ht	MP:0002058	neonatal lethality
+MGI:96175	Hoxa3	Hoxa3<tm1Nrm>/Hoxa3<tm1Mrc>	involves: 129S7/SvEvBrd * C3H * C57BL/6 * C57BL/6NHsd	ht	MP:0002058	neonatal lethality
+MGI:96200	Hoxd	Hoxd<tm12Ddu>/Hoxd<+>	involves: 129S2/SvPas * C57BL/6 * DBA/2	ht	MP:0002080	prenatal lethality
+MGI:109369	Hp1bp3	Hp1bp3<tm1a(EUCOMM)Wtsi>/Hp1bp3<+>	involves: C57BL/6N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:3590238	Hrtfm7	Hrtfm7<AKR/J>/Hrtfm7<DBA/2J>	involves: C57BL/6J * DBA/2J	ht	MP:0002082	postnatal lethality
+MGI:96067	Htt	Htt<tm1Mem>/Htt<tm7Mem>	involves: 129S/SvEv * 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:96067	Htt	Htt<tm1Mem>/Htt<tm7Mem>	involves: 129S/SvEv * 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:1934923	Ifitm5	Ifitm5<em1Pmof>/Ifitm5<+>	involves: CD-1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98715	Ift88	Ift88<fxo>/Ift88<tm1Rpw>	involves: 129/Sv * C3HeB/FeJ * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:3051678	Igdmr	Igdmr<tm1Ace>/Igdmr<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:3051678	Igdmr	Igdmr<tm1Ace>/Igdmr<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96434	Igf2	Igf2<tm1Rob>/Igf2<+>	involves: 129S/SvEv * C57BL/6J	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:96434	Igf2	Igf2<tm1Rob>/Igf2<+>	involves: 129S/SvEv * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1.1(IGF2R)Arte>/Igf2r<+>	involves: C57BL/6J * C57BL/6NTac	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1.1Rlj>/Igf2r<+>	involves: 129/Sv * BALB/cJ * C57BL/6J	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Arge>/Igf2r<+>	involves: 129/Sv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Arge>/Igf2r<+>	involves: 129/Sv	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Arge>/Igf2r<+>	involves: 129/Sv * C57BL/6J * MF1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Arge>/Igf2r<+>	involves: 129/Sv * C57BL/6J * MF1	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Arge>/Igf2r<+>	involves: 129/Sv * MF1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Stw>/Igf2r<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Wag>/Igf2r<+>	involves: 129S2/SvPas	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:96435	Igf2r	Igf2r<tm1Wag>/Igf2r<+>	involves: 129S2/SvPas	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm2Arge>/Igf2r<+>	involves: 129/Sv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm2Arge>/Igf2r<+>	involves: 129/Sv	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm2Arge>/Igf2r<+>	involves: 129/Sv * C57BL/6J * MF1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm2Arge>/Igf2r<+>	involves: 129/Sv * C57BL/6J * MF1	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96435	Igf2r	Igf2r<tm2Arge>/Igf2r<+>	involves: 129/Sv * MF1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1338074	Ikbkg	Ikbkg<tm1Mka>/Ikbkg<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1338074	Ikbkg	Ikbkg<tm1Mpa>/Ikbkg<+>	involves: C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1342540	Ikzf1	Ikzf1<tm1.1Smale>/Ikzf1<tm2Kge>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011400	lethality, complete penetrance
+MGI:1342540	Ikzf1	Ikzf1<tm2Kge>/Ikzf1<tm2.1Smale>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011400	lethality, complete penetrance
+MGI:96573	Ins2	Ins2<tm1Delt>/Ins2<+>	involves: 129S2/SvPas * Black Swiss	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1859211	Irf6	Irf6<tm1Mjd>/Irf6<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:109156	Isl2	Isl2<tm3.1(Mnx1-Lhx3)Slp>/Isl2<+>	Not Specified	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:96610	Itgb1	Itgb1<tm14.1Ref>/Itgb1<tm15.1Ref>	Not Specified	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:1095416	Jag1	Jag1<Mhdahtu>/Jag1<Slalom>	involves: BALB/c * C3H * C3HeB/FeJ	ht	MP:0006207	embryonic lethality during organogenesis
+MGI:96629	Jak2	Jak2<m1Dlbr>/Jak2<tm1Jni>	involves: 129P2/OlaHsd * 129S1/SvImJ * C57BL/6J	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:96646	Jun	Jun<tm1Wag>/Jun<tm5.1(Junb)Wag>	involves: 129P2/OlaHsd * 129S2/SvPas * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1343101	Kat2a	Kat2a<tm1Roth>/Kat2a<tm3Roth>	involves: 129 * 129S7/SvEvBrd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1196256	Kdm1a	Kdm1a<Gt(RRK075)Byg>/Kdm1a<tm1.2Rsd>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:96677	Kit	Kit<W-19H>/Kit<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-34J>/Kit<W-39J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-37J>/Kit<W-39J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-38J>/Kit<W-39J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-39J>/Kit<W-40J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-39J>/Kit<W-41J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-39J>/Kit<W-42J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-39J>/Kit<W-43J>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<W-s>/Kit<W>	involves: BRS	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:96677	Kit	Kit<W>/Kit<W-v>	involves: C57BL/6J	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:96677	Kit	Kit<tm1.1(cre)Jmol>/Kit<tm2.1(cre/Esr1*)Jmol>	involves: 129/Sv * 129S4/SvJaeSor * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:96677	Kit	Kit<tm2Ber>/Kit<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:96677	Kit	Kit<tm5.1Bsm>/Kit<+>	involves: 129S1/Sv * C57BL/6J * FVB/N	ht	MP:0010831	lethality, incomplete penetrance
+MGI:96974	Kitl	Kitl<Sl-18H>/Kitl<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1342771	Klf1	Klf1<Nan>/Klf1<+>	either: B6.Cg-Klf1<Nan> or WB.Cg-Klf1<Nan>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1342773	Klf3	Klf3<m1Cmhd>/Klf3<+>	involves: C3H/HeJ * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1342773	Klf3	Klf3<m1Cmhd>/Klf3<+>	involves: C3H/HeJ * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96995	Kmt2a	Kmt2a<tm1Saam>/Kmt2a<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96995	Kmt2a	Kmt2a<tm1Sjk>/Kmt2a<tm1.2Erns>	involves: 129S2/SvPas * C57BL/6 * FVB/N	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:109565	Kmt2b	Kmt2b<Gena263>/Kmt2b<tm1Afst>	involves: 129P2/OlaHsd * BALB/c * C3H/HeH	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:109565	Kmt2b	Kmt2b<Gena263>/Kmt2b<tm1Afst>	involves: 129P2/OlaHsd * BALB/c * C3H/HeH	ht	MP:0011107	embryonic lethality between somite formation and embryo turning, incomplete penetrance
+MGI:2141165	Kpna7	Kpna7<tm1.1Sgao>/Kpna7<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:96680	Kras	Kras<tm4.1Tyj>/Kras<+>	Not Specified	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99258	Krd	Krd/Krd<+>	involves: C3H/He * C57BL/6 * YBR/Ki	ht	MP:0002082	postnatal lethality
+MGI:96688	Krt14	Krt14<tm2Der>/Krt14<+>	involves: 129X1/SvJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1354386	Lats2	Lats2<tm1Noj>/Lats2<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1932557	Letm1	Letm1<Gt(CC0204)Wtsi>/Letm1<+>	129S.129P2-Letm1<Gt(CC0204)Wtsi>	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1932557	Letm1	Letm1<Gt(DD0926)Wtsi>/Letm1<+>	129S.129P2-Letm1<Gt(DD0926)Wtsi>	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1891468	Lgr4	Lgr4<Gt(pGT0TMpfs)1Wcs>/Lgr4<+>	involves: 129P2/Ola * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1891468	Lgr4	Lgr4<tm1.2Knis>/Lgr4<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96786	Li	Li/Li<+>	Not Specified	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:109360	Lmo4	Lmo4<tm1Thr>/Lmo4<tm2Thr>	involves: 129S/SvEv * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:109360	Lmo4	Lmo4<tm1Thr>/Lmo4<tm2Thr>	involves: 129S/SvEv * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1100513	Lmx1b	Lmx1b<Icst>/Lmx1b<+>	involves: BALB/cAnN * C3H/HeN	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1918115	Lnpk	Lnpk<Ul>/Lnpk<+>	involves: C3H/HeJ * C57BL/6J * FVB/N	ht	MP:0002082	postnatal lethality
+MGI:1298218	Lrp6	Lrp6<Cd>/Lrp6<Gt(Ex187)Byg>	involves: 129P2/OlaHsd * A	ht	MP:0002080	prenatal lethality
+MGI:96831	Lse	Lse/Lse<+>	B6C3Fe a/a-Lse/J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96831	Lse	Lse/Lse<+>	B6C3Fe a/a-Lse/J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1351648	Magel2	Magel2<tm1.1Mus>/Magel2<+>	B6.129S2-Magel2<tm1.1Mus>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1351648	Magel2	Magel2<tm1.1Mus>/Magel2<+>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1351648	Magel2	Magel2<tm1Stw>/Magel2<+>	C57BL/6-Magel2<tm1Stw>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1330312	Magoh	Magoh<Gt(AG0150)Wtsi>/Magoh<+>	involves: 129P2/OlaHsd	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1330312	Magoh	Magoh<Gt(AT0027)Wtsi>/Magoh<+>	involves: 129P2/OlaHsd	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1330312	Magoh	Magoh<Mos2>/Magoh<+>	involves: BALB/cJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1346878	Map3k8	Map3k8<M1Btlr>/Map3k8<+>	C57BL/6J-Map3k8<M1Btlr>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1346858	Mapk1	Mapk1<tm1.1Kuta>/Mapk1<+>	involves: 129P2/OlaHsd * C57BL/6 * C57BL/6J * FVB/N	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1346858	Mapk1	Mapk1<tm1Kuta>/Mapk1<tm1.1Kuta>	involves: 129P2/OlaHsd * C57BL/6 * C57BL/6J * FVB/N	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1346858	Mapk1	Mapk1<tm1Melo>/Mapk1<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1338823	Maz	Maz<em#Mhll>/Maz<+>	C57BL/6J-Maz<em#Mhll>	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:96922	Mb	Mb<tm1Wlm>/Mb<+>	either: (involves: 129/Sv) or (involves: C57BL/6)	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1927235	Mbtps1	Mbtps1<Gt(PST115)Byg>/Mbtps1<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1927235	Mbtps1	Mbtps1<Gt(PST115)Byg>/Mbtps1<wrt>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:103199	Mcm4	Mcm4<chaos3>/Mcm4<Gt(RRE056)Byg>	B6.Cg-Mcm4<chaos3> Mcm4<Gt(RRE056)Byg>	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:103199	Mcm4	Mcm4<chaos3>/Mcm4<Gt(RRE056)Byg>	involves: 129P2/OlaHsd * C3HeB/FeJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103199	Mcm4	Mcm4<chaos3>/Mcm4<Gt(RRE056)Byg>	involves: 129P2/OlaHsd * C3HeB/FeJ * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:103199	Mcm4	Mcm4<chaos3>/Mcm4<Sdla>	involves: C57BL/6 * C57BL/6J	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1890500	Mcoln3	Mcoln3<Va>/Mcoln3<Va-J>	Not Specified	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:96952	Mdm2	Mdm2<tm1Bay>/Mdm2<tm1.1Mep>	involves: 129S7/SvEvBrd * C57BL/6 * FVB	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:96952	Mdm2	Mdm2<tm1Bay>/Mdm2<tm1Mep>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:95457	Mecom	Mecom<Jbo>/Mecom<tm1Mmor>	involves: 129S2/SvPas * BALB/c * C3H/HeN * CF-1	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:95457	Mecom	Mecom<tm1Aspe>/Mecom<tm1Mmor>	involves: 129S2/SvPas * 129S6/SvEvTac * C57BL/6	ht	MP:0011400	lethality, complete penetrance
+MGI:99918	Mecp2	Mecp2<tm1.1Mitoh>/Mecp2<+>	Not Specified	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1917040	Med30	Med30<Gt(CH0776)Wtsi>/Med30<m1Btlr>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:1202886	Meg3	Meg3<Gt(pGTi)216Gos>/Meg3<+>	involves: 129S2/SvPas * BALB/c * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:1202886	Meg3	Meg3<Gt(pGTi)216Gos>/Meg3<+>	involves: 129S2/SvPas * BALB/c * C57BL/6	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1202886	Meg3	Meg3<Gt(pGTi)216Gos>/Meg3<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:1202886	Meg3	Meg3<tm1Itl>/Meg3<+>	B6.129S6-Meg3<tm1Itl>	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:1202886	Meg3	Meg3<tm1Jvs>/Meg3<+>	involves: 129P2/OlaHsd	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1202886	Meg3	Meg3<tm1Kono>/Meg3<+>	involves: 129P2/OlaHsd * C57BL/6N * DBA/2	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1202886	Meg3	Meg3<tm1Kono>/Meg3<+>	involves: 129P2/OlaHsd * C57BL/6N * DBA/2	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:96968	Mest	Mest<tm1Masu>/Mest<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:96968	Mest	Mest<tm1Masu>/Mest<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:96969	Met	Met<tm1Cpo>/Met<tm2Cpo>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:96969	Met	Met<tm4Cpo>/Met<tm2Cpo>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1927811	Minute	Minute/Minute<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1927811	Minute	Minute/Minute<+>	involves: 101/H * C3H/HeH * C57BL/6J * CBA/Ca * M. spretus	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1927811	Minute	Minute/Minute<+>	involves: 101/H * C3H/HeH * M. m. castaneus	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:2676812	Mir127	Mir127<tm1.1Acfs>/Mir127<+>	B6J.129-Mir127<tm1.1Acfs>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:5614031	Mirc36	Mirc36<tm1.1Jcav>/Mirc36<+>	B6.129-Mirc36<tm1.1Jcav>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5614031	Mirc36	Mirc36<tm1.1Jcav>/Mirc36<+>	B6.129-Mirc36<tm1.1Jcav>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1261813	Mn1	Mn1<tm1Ecz>/Mn1<+>	FVB.129-Mn1<tm1Ecz>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:5429753	Mut1454	Mut1454/Mut1454<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5470121	Mut1602	Mut1602/Mut1602<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:5471520	Mut1679	Mut1679/Mut1679<+>	involves: 101/H * C3H/HeH	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:5471520	Mut1679	Mut1679/Mut1679<+>	involves: 101/H * C3H/HeH	ht	MP:0011104	embryonic lethality before implantation, incomplete penetrance
+MGI:5450855	Muth1	Muth1/Muth1<+>	involves: 101/H * C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:5436126	Mvd007	Mvd007/Mvd007<+>	C3HeB/FeJ-Mvd007	ht	MP:0010831	lethality, incomplete penetrance
+MGI:97249	Myb	Myb<tm1Jof>/Myb<tm1Ssp>	involves: 129/Sv * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:97357	Mycn	Mycn<tm1Jrt>/Mycn<tm1Par>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:97357	Mycn	Mycn<tm1Nagy>/Mycn<tm2.1Nagy>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:97357	Mycn	Mycn<tm1Par>/Mycn<+>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1930780	Myh10	Myh10<ehc>/Myh10<tm2Rsad>	involves: 129S4/SvJae * 129S5/SvEvBrd * 129S7/SvEvBrd * C57BL/6J	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:107717	Myh9	Myh9<tm1.1Dash>/Myh9<+>	involves: 129S2/SvPas * C57BL/6 * C57BL/6J * CBA	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:97272	Myl2	Myl2<tm1(Hand1)Tana>/Myl2<+>	involves: 129X1/SvJ * C57BL/6J	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:97276	Myog	Myog<tm1Whk>/Myog<tm2Whk>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1914813	Narfl	Narfl<tm1.2Fsl>/Narfl<+>	involves: C57BL/6 * C57BL/6NTac	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97281	Ncam1	Ncam1<tm2Mag>/Ncam1<+>	involves: 129 * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1929915	Ncoa6	Ncoa6<tm1Hhs>/Ncoa6<+>	129S6/SvEvTac-Ncoa6<tm1Hhs>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1929915	Ncoa6	Ncoa6<tm1Hhs>/Ncoa6<+>	129S6/SvEvTac-Ncoa6<tm1Hhs>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97290	Ndn	Ndn<tm1Stw>/Ndn<+>	involves: 129S1/Sv * C3H/He * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:97290	Ndn	Ndn<tm1Stw>/Ndn<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:97290	Ndn	Ndn<tm1Stw>/Ndn<+>	involves: 129S1/Sv * FVB	ht	MP:0002082	postnatal lethality
+MGI:97290	Ndn	Ndn<tm2Stw>/Ndn<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:97290	Ndn	Ndn<tm2Stw>/Ndn<+>	involves: 129S1/Sv * C57BL/6J	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-4R>	Mixed stock	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-4R>	Mixed stock	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-5R>	Mixed stock	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-5R>	Mixed stock	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-7R>	Mixed stock	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-7R>	Mixed stock	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-8R>	Mixed stock	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:2443902	Nell1	Nell1<l7R6-1R>/Nell1<l7R6-8R>	Mixed stock	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1861674	Nespas	Nespas<tm1.1Hju>/Nespas<+>	either: (involves: 129S4/SvJae) or (involves: 129S4/SvJae * C57BL/6J)	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1861674	Nespas	Nespas<tm1Jop>/Nespas<+>	involves: 129S/SvEv	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1339708	Neurod1	Neurod1<tm1Kan>/Neurod1<tm1Mjts>	involves: 129P2/OlaHsd * 129S7/SvEvBrd	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:97306	Nf1	Nf1<tm1Fcr>/Nf1<tm1.1Par>	involves: 129S/SvEv * 129S1/Sv * 129S2/SvPas * 129X1/SvJ	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:97306	Nf1	Nf1<tm1Tyj>/Nf1<tm2Tyj>	chimera involves: 129S2/SvPas	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:103188	Nfib	Nfib<tm1Rmg>/Nfib<+>	involves: 129P2/OlaHsd * Black Swiss	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:103188	Nfib	Nfib<tm1Rmg>/Nfib<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1913976	Nipbl	Nipbl<Gt(RRS564)Byg>/Nipbl<+>	involves: 129P2/OlaHsd * CD-1	ht	MP:0002082	postnatal lethality
+MGI:1206039	Nkx6-1	Nkx6-1<tm1Jlr>/Nkx6-1<tm1.2Msan>	involves: 129S6/SvEvTac * C57BL * DBA * SJL	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1201387	Nlk	Nlk<Gt(RRJ297)Byg>/Nlk<Gt(XN619)Byg>	B6.129P2-Nlk<Gt(RRJ297)Byg>/Nlk<Gt(XN619)Byg>	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:2653833	Nlrp3	Nlrp3<tm3.1Hhf>/Nlrp3<+>	involves: 129	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:102579	Nmt1	Nmt1<Gt(XE400)Byg>/Nmt1<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97359	Nodal	Nodal<TgR(MPSVNeo)413.dRob>/Nodal<tm4Rob>	involves: 129S/SvEv * C57BL/6	ht	MP:0011097	embryonic lethality between somite formation and embryo turning, complete penetrance
+MGI:97359	Nodal	Nodal<tm1.2Rob>/Nodal<tm3Rob>	involves: 129S/SvEv * MF1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:97359	Nodal	Nodal<tm1Mku>/Nodal<tm1.1Mku>	either: (involves: 129S1/Sv * FVB/N) or (involves: 129S1/Sv * C57BL/6J * FVB/N)	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:97359	Nodal	Nodal<tm1Mku>/Nodal<tm1.1Mku>	either: (involves: 129S1/Sv * FVB/N) or (involves: 129S1/Sv * C57BL/6J * FVB/N)	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:97362	Nos3	Nos3<tm1Unc>/Nos3<+>	B6.129P2-Nos3<tm1Unc>/J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97363	Notch1	Notch1<tm2Pst>/Notch1<tm2.1Pst>	involves: 129/Sv * C57BL/6 * SJL	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:106184	Npm1	Npm1<tm1Ppp>/Npm1<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2449205	Nr1d2	Nr1d2<tm1Dgen>/Nr1d2<+>	B6;129P2-Nr1d2<tm1Dgen>/H	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1352452	Nr2f2	Nr2f2<tm1Tsa>/Nr2f2<+>	either: 129S7/SvEvBrd or C57BL/6 or (involves: 129S7/SvEvBrd * C57BL/6 * ICR)	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1352457	Nr4a3	Nr4a3<tm1Wnt>/Nr4a3<+>	involves: 129S4/SvJae	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1346834	Nr5a2	Nr5a2<tm1Lex>/Nr5a2<+>	involves: 129	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1099438	Nsdhl	Nsdhl<Bpa-1H>/Nsdhl<+>	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1099438	Nsdhl	Nsdhl<Bpa-1H>/Nsdhl<+>	involves: 101/H * C3H/HeH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97394	Oat	Oat<rhg>/Oat<tm1Dva>	involves: 129S7/SvEvBrd * AKR/J * C57BL/6J * C57BL/6JEi	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:97454	Oca2	Oca2<p-226THO-I>/Oca2<p-4THO-II>	involves: 101/Rl * C3H/Rl	ht	MP:0002058	neonatal lethality
+MGI:97454	Oca2	Oca2<p-4THO-II>/Oca2<p-8FDFoD>	involves: 101/Rl * C3H/Rl	ht	MP:0002058	neonatal lethality
+MGI:97434	Om	Om/Om<+>	either: (DDK x C57BL/6J)F1 or (DDK x KK)F1 or (DDK x NC)F1	ht	MP:0011104	embryonic lethality before implantation, incomplete penetrance
+MGI:97446	Os	Os/Os<+>	involves: 101 * C3H * CBA/Gr	ht	MP:0002080	prenatal lethality
+MGI:97451	Otx2	Otx2<tm12.1Asim>/Otx2<tm11Asim>	involves: 129P2/OlaHsd * C57BL/6 * DBA/2	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:97451	Otx2	Otx2<tm1Pas>/Otx2<+>	involves: C57BL/6 * FVB/N	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:97451	Otx2	Otx2<tm1Sia>/Otx2<+>	involves: C57BL/6 * CBA	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:97451	Otx2	Otx2<tm1Sla>/Otx2<+>	involves: 129S1/Sv * 129X1/SvJ * CD-1	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1338898	Padi4	Padi4<tm1.1Ywan>/Padi4<+>	involves: 129S4/SvJae	ht	MP:0010831	lethality, incomplete penetrance
+MGI:109520	Pafah1b1	Pafah1b1<tm1Awb>/Pafah1b1<tm2Awb>	involves: 129S6/SvEvTac * FVB/N * NIH Black Swiss	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:97486	Pax2	Pax2<1Neu>/Pax2<+>	involves: 102 * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97486	Pax2	Pax2<1Neu>/Pax2<+>	involves: 102 * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:97486	Pax2	Pax2<tm1Gdr>/Pax2<tm1.1Gdr>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:97487	Pax3	Pax3<Sp-4H>/Pax3<+>	involves: 101/H * C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97487	Pax3	Pax3<tm1Buck>/Pax3<Sp>	involves: 129P2/OlaHsd * C57BL	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:97487	Pax3	Pax3<tm3.1(Pax7)Buck>/Pax3<Sp>	involves: 129S2/SvPas	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:97490	Pax6	Pax6<Sey-2H>/Pax6<+>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-2H>/Pax6<+>	Not Specified	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-2H>/Pax6<+>	Not Specified	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-3H>/Pax6<+>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-3H>/Pax6<+>	Not Specified	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-Dey>/Pax6<+>	C3H/HeJ-Pax6<Sey-Dey>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:97490	Pax6	Pax6<Sey-Dey>/Pax6<+>	involves: C3H/HeJ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97493	Pax9	Pax9<tm1Hpt>/Pax9<tm1Rbal>	involves: 129 * C57BL/6 * CD-1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97495	Pbx1	Pbx1<tm1Mlc>/Pbx1<tm2.1Mlc>	involves: 129S6/SvEvTac	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:97528	Pdgfb	Pdgfb<tm1Cbet>/Pdgfb<tm3.1Cbet>	involves: 129P2/OlaHsd * 129S1/Sv * 129X1/SvJ	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:97530	Pdgfra	Pdgfra<tm10(Pdgfra/tor)Sor>/Pdgfra<tm11(EGFP)Sor>	either: (involves: 129S4/SvJaeSor) or (involves: 129S4/SvJaeSor * C57BL/6)	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:97530	Pdgfra	Pdgfra<tm12.1Sor>/Pdgfra<+>	involves: 129 * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:97530	Pdgfra	Pdgfra<tm13.1Sor>/Pdgfra<+>	involves: 129 * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97530	Pdgfra	Pdgfra<tm9(Pdgfra/Fgfr1)Sor>/Pdgfra<tm11(EGFP)Sor>	either: (involves: 129S4/SvJaeSor) or (involves: 129S4/SvJaeSor * C57BL/6)	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:97531	Pdgfrb	Pdgfrb<tm1Sor>/Pdgfrb<tm5Sor>	either: (involves: 129S4/SvJaeSor * 129S7/SvEvBrd) or (involves: 129S4/SvJaeSor * 129S7/SvEvBrd * C57BL/6)	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97531	Pdgfrb	Pdgfrb<tm1Sor>/Pdgfrb<tm5Sor>	either: (involves: 129S4/SvJaeSor * 129S7/SvEvBrd) or (involves: 129S4/SvJaeSor * 129S7/SvEvBrd * C57BL/6)	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1914649	Pdlim7	Pdlim7<Gt(OST445990)Lex>/Pdlim7<+>	B6.129S5-Pdlim7<Gt(OST445990)Lex>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1914649	Pdlim7	Pdlim7<Gt(OST445990)Lex>/Pdlim7<+>	B6.129S5-Pdlim7<Gt(OST445990)Lex>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1338068	Pdpk1	Pdpk1<tm1Mlw>/Pdpk1<tm1.2Mlw>	involves: BALB/c	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1338068	Pdpk1	Pdpk1<tm2Ejm>/Pdpk1<+>	involves: 129P2/OlaHsd * BALB/c	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:102851	Pdx1	Pdx1<tm2Cvw>/Pdx1<tm3Cvw>	involves: 129/Sv * C57BL/6 * DBA * FVB/N	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:2157785	Peg10	Peg10<tm1Fuis>/Peg10<+>	involves: 129S/SvEv	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:104748	Peg3	Peg3<tm1.1Jkim>/Peg3<+>	involves: 129S7/SvEvBrd * C57BL/6 * C57BL/6J	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:104748	Peg3	Peg3<tm1a(EUCOMM)Hmgu>/Peg3<+>	involves: C57BL/6N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	B6.129S4-Pfn1<tm1Wit>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	B6.129S4-Pfn1<tm1Wit>	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	involves: 129S4/SvJae * BALB/c	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	involves: 129S4/SvJae * BALB/c	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:97549	Pfn1	Pfn1<tm1Wit>/Pfn1<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97566	Pgm3	Pgm3<Gt(W037B08)Wrst>/Pgm3<mld1>	involves: 129S1/Sv * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:102520	Phb2	Phb2<tm1Katz>/Phb2<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1100882	Phox2b	Phox2b<Dilp1>/Phox2b<+>	involves: BALB/cAnN * C3H/HeN	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1100882	Phox2b	Phox2b<tm1.1Heno>/Phox2b<+>	either: (involves: 129P2/OlaHsd * C57BL/6) or (involves: 129P2/OlaHsd * C57BL/6 * DBA/2)	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1100882	Phox2b	Phox2b<tm2.1Heno>/Phox2b<+>	either: (involves: 129P2/OlaHsd * C57BL/6) or (involves: 129P2/OlaHsd * C57BL/6 * DBA/2)	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1100882	Phox2b	Phox2b<tm2Jbr>/Phox2b<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1923670	Pifo	Pifo<tm1.1Heli>/Pifo<+>	chimera involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99461	Piga	Piga<tm1.1Tak>/Piga<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1919650	Pinx1	Pinx1<tm1.1Kplu>/Pinx1<+>	involves: 129S7/SvEvBrd * C57BL/6 * FVB/N	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:109340	Pitx2	Pitx2<tm1Jfm>/Pitx2<tm2.1Jfm>	involves: 129S4/SvJaeSor * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:109340	Pitx2	Pitx2<tm1Jfm>/Pitx2<tm2Jfm>	involves: 129S4/SvJaeSor * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:97603	Pkd1	Pkd1<tm1Ggg>/Pkd1<tm2.1Ggg>	involves: 129S4/SvJae * Black Swiss * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:2444945	Pla2g3	Pla2g3<tm1Murm>/Pla2g3<+>	involves: 129S/SvEv * C57BL/6J	ht	MP:0011094	embryonic lethality before implantation, complete penetrance
+MGI:104810	Plaa	Plaa<em1Pmi>/Plaa<tm1(NCOM)Cmhd>	either (involves: C57BL/6J * C57BL/6NCrl) or (involves: C57BL/6J * C57BL/6NCrl * CD1)	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:1100874	Plagl1	Plagl1<Gt(OST181461)Lex>/Plagl1<+>	involves: 129S5/SvEvBrd	ht	MP:0002080	prenatal lethality
+MGI:1100874	Plagl1	Plagl1<Gt(OST181461)Lex>/Plagl1<+>	involves: 129S5/SvEvBrd	ht	MP:0002082	postnatal lethality
+MGI:1100874	Plagl1	Plagl1<tm1Jour>/Plagl1<+>	B6.129P2-Plagl1<tm1Jour>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1100874	Plagl1	Plagl1<tm1Jour>/Plagl1<+>	B6.129P2-Plagl1<tm1Jour>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1100874	Plagl1	Plagl1<tm1Jour>/Plagl1<+>	CBA.129P2-Plagl1<tm1Jour>	ht	MP:0002082	postnatal lethality
+MGI:101783	Plk4	Plk4<Gt(XK603)Byg>/Plk4<m1Lja>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:1859214	Pmm2	Pmm2<tm1.1Cknr>/Pmm2<tm2.1Cknr>	involves: C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1859214	Pmm2	Pmm2<tm1.1Jins>/Pmm2<tm2.1Jins>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97631	Pmp22	Pmp22<Tr>/Pmp22<+>	Not Specified	ht	MP:0011083	lethality at weaning, complete penetrance
+MGI:1100514	Pnn	Pnn<tm1Sps>/Pnn<tm1.2Sps>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1916863	Pofut2	Pofut2<Gt(OST231463)Lex>/Pofut2<Gt(RST434)Byg>	involves: 129P2/OlaHsd * 129S5/SvEvBrd	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:97744	Por	Por<tm1Cbk>/Por<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97744	Por	Por<tm1Cbk>/Por<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:97744	Por	Por<tm2Ding>/Por<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1890212	Porcn	Porcn<tm1.2Vdv>/Porcn<+>	involves: 129S4/SvJaeSor * 129S5/SvEvBrd * C57BL/6J * FVB/N	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1890212	Porcn	Porcn<tm1.2Vdv>/Porcn<+>	involves: 129S4/SvJaeSor * 129S5/SvEvBrd * C57BL/6J * FVB/N	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:102525	Pou4f1	Pou4f1<tm1Et>/Pou4f1<tm1Nat>	involves: 129/Sv * 129S4/SvJae * 129S7/SvEvBrd	ht	MP:0002058	neonatal lethality
+MGI:99655	Prdm1	Prdm1<tm1.1Clme>/Prdm1<tm1.1Liz>	involves: 129S/SvEv * 129S1/Sv * 129X1/SvJ	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99655	Prdm1	Prdm1<tm1.1Clme>/Prdm1<tm1.1Liz>	involves: 129S/SvEv * 129S1/Sv * 129X1/SvJ	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:99655	Prdm1	Prdm1<tm1.1Clme>/Prdm1<tm2Rob>	involves: 129S/Sv * 129X1/Sv * C57BL/6 * FVB/N * ICR	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1095733	Pros1	Pros1<tm1.2Grl>/Pros1<+>	involves: 129S1/SvImJ * FVB/N	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:97772	Prox1	Prox1<tm1Gco>/Prox1<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:97772	Prox1	Prox1<tm1Gco>/Prox1<+>	involves: 129S1/Sv * 129X1/SvJ * NMRI	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97712	Prrx1	Prrx1<tm1Jfm>/Prrx1<tm1Tex>	involves: 129S4/SvJaeSor * 129S7/SvEvBrd	ht	MP:0002058	neonatal lethality
+MGI:1923810	Prss8	Prss8<tm1.1Bug>/Prss8<Gt(IST10122F12)Tigm>	involves: 129S6/SvEvTac * Black Swiss * C57BL/6J * C57BL/6N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1202717	Psen1	Psen1<tm1Mpm>/Psen1<tm1Shn>	involves: 129S1/Sv * 129S7/SvEvBrd * 129X1/SvJ	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1202717	Psen1	Psen1<tm1Shn>/Psen1<tm1.1Tcs>	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:2142116	Psip1	Psip1<Gt(betageo)1Hgs>/Psip1<+>	B6.129P2-Psip1<Gt(betageo)1Hgs>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:97789	Pst	Pst/Pst<+>	involves: 129 * CBA/FaCam * Peru-Coppock	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:105373	Ptch1	Ptch1<dl>/Ptch1<tm1Mps>	involves: 129S1/SvImJ * 129X1/SvJ * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:105373	Ptch1	Ptch1<tm1Zim>/Ptch1<+>	either: (involves: 129/Sv * C57BL/6) or (involves: 129/Sv * CD-1)	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:109583	Pten	Pten<tm1Mak>/Pten<+>	B6.129P2-Pten<tm1Mak>	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:109583	Pten	Pten<tm1Ppp>/Pten<tm2Ppp>	involves: 129S1/Sv * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:99511	Ptpn11	Ptpn11<tm1Bgn>/Ptpn11<+>	B6.129S4-Ptpn11<tm1Bgn>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:99511	Ptpn11	Ptpn11<tm1Bgn>/Ptpn11<+>	C.129S4-Ptpn11<tm1Bgn>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:99511	Ptpn11	Ptpn11<tm1Bgn>/Ptpn11<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:99511	Ptpn11	Ptpn11<tm1Bgn>/Ptpn11<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:104574	Ptprj	Ptprj<tm1Taka>/Ptprj<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:97837	Qk	Qk<qk-k2>/Qk<qk-kt1>	involves: C57BL/6 * CBA/Ca * STOCK t<w5>	ht	MP:0011095	embryonic lethality between implantation and placentation, complete penetrance
+MGI:97837	Qk	Qk<qk-k2>/Qk<qk-kt4>	involves: C57BL/6 * CBA/Ca * STOCK t<w5>	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:102790	Rab18	Rab18<Gt(EUCE0233a03)Hmgu>/Rab18<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:105068	Rab7	Rab7<tm1.2Ale>/Rab7<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0010831	lethality, incomplete penetrance
+MGI:109292	Rad50	Rad50<tm1Jpt>/Rad50<tm4.1Jpt>	involves: 129/Sv * 129S7/SvEvBrd * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:109292	Rad50	Rad50<tm5Jpt>/Rad50<+>	involves: 129/Sv * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:2385231	Rad9b	Rad9b<tm1Lieb>/Rad9b<+>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2385231	Rad9b	Rad9b<tm1Lieb>/Rad9b<+>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:2385231	Rad9b	Rad9b<tm1Lieb>/Rad9b<+>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:97874	Rb1	Rb1<tm1Dwg>/Rb1<tm1Tyj>	involves: 129/Sv * 129S2/SvPas * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:97874	Rb1	Rb1<tm1Tyj>/Rb1<+>	involves: 129S2/SvPas	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2683486	Rere	Rere<eyes3>/Rere<om>	involves: 129S6/SvEvTac * BTBR * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2683486	Rere	Rere<om>/Rere<Gt(PTO26)1Byg>	involves: 129P2/OlaHsd * BTBR * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1926007	Rictor	Rictor<tm1.2Mgn>/Rictor<tm1.3Mgn>	involves: 129S6/SvEvTac * C57BL/6 * FVB/N * SJL	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1342291	Rlim	Rlim<tm1.1Inba>/Rlim<tm1.2Inba>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6 * FVB	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:107927	Rock1	Rock1<tm1Leiw>/Rock1<+>	FVB.129S7-Rock1<tm1Leiw>	ht	MP:0011103	embryonic lethality at implantation, incomplete penetrance
+MGI:1915443	Rpl24	Rpl24<Bst>/Rpl24<+>	involves: C57BLKS	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1915443	Rpl24	Rpl24<Bst>/Rpl24<+>	involves: C57BLKS	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:1347076	Rpl27a	Rpl27a<Sfa>/Rpl27a<+>	C57BL/6J-Rpl27a<Sfa>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1914921	Rpl38	Rpl38<Rbt>/Rpl38<+>	involves: C3H * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1914921	Rpl38	Rpl38<Rbt>/Rpl38<+>	involves: C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1914921	Rpl38	Rpl38<Rbt>/Rpl38<+>	involves: C57BL/6J * DBA	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(BALB/c x A)F1	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(BALB/c x C3H)F1	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(TSJ/Le x A/JSlc)F1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(TSJ/Le x AKR/J)F1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(TSJ/Le x C3.SW-H2<b>/SnJ)F1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	(TSJ/Le x CBA/J)F1	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1914921	Rpl38	Rpl38<Ts>/Rpl38<+>	BALB/c-Rpl38<Ts>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1927099	Rplp1	Rplp1<tm1.1Melt>/Rplp1<tm1.2Melt>	Not Specified	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1333818	Rps7	Rps7<Zma>/Rps7<+>	involves: BALB/c * C3H/HeH * C57BL/6J	ht	MP:0002081	perinatal lethality
+MGI:5499537	Rr29	Rr29<Hx>/Rr29<+>	involves: C57BL/10SnJ * DBA/2J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2656842	Rtl1	Rtl1<tm1Fuis>/Rtl1<+>	involves: 129S/SvEv * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:2656842	Rtl1	Rtl1<tm1Fuis>/Rtl1<+>	involves: 129S/SvEv * C57BL/6	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2656842	Rtl1	Rtl1<tm1Fuis>/Rtl1<+>	involves: 129S/SvEv * DBA/2	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2656842	Rtl1	Rtl1<tm1Fuis>/Rtl1<+>	involves: 129S/SvEv * DBA/2	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:99852	Runx1	Runx1<tm1(RUNX1/EVI1)Kmit>/Runx1<+>	involves: C57BL/6 * CBA	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99852	Runx1	Runx1<tm1Dez>/Runx1<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99852	Runx1	Runx1<tm1Spe>/Runx1<tm1Yg>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ * C57BL/6	ht	MP:0008762	embryonic lethality
+MGI:99852	Runx1	Runx1<tm1Yg>/Runx1<tm2Spe>	either: (involves: 129/Sv) or (involves: 129/Sv * ICR) or (involves: 129/Sv * MF1)	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:99852	Runx1	Runx1<tm2Dow>/Runx1<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98214	Rxra	Rxra<tm2Ipc>/Rxra<tm4.1Ipc>	involves: 129/Sv	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1929059	Rybp	Rybp<tm1Nisa>/Rybp<+>	involves: 129S1/Sv * 129X1/SvJ * ICR	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2146974	Safb	Safb<tm1So>/Safb<+>	involves: 129 * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1889585	Sall1	Sall1<tm2Ryn>/Sall1<+>	involves: 129P2/OlaHsd * C57BL/6N	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:2139360	Sall4	Sall4<Gt(XE027)Byg>/Sall4<+>	B6;129P2-Sall4<Gt(XE027)Byg>	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:2139360	Sall4	Sall4<Gt(XE027)Byg>/Sall4<+>	involves: 129P2/OlaHsd * Black Swiss * C57BL/6	ht	MP:0006207	embryonic lethality during organogenesis
+MGI:2139360	Sall4	Sall4<tm1Brd>/Sall4<+>	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:2139360	Sall4	Sall4<tm1Ryn>/Sall4<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2139360	Sall4	Sall4<tm1Ryn>/Sall4<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:2139360	Sall4	Sall4<tm1Tre>/Sall4<tm2.1Tre>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6 * CD-1	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:2139360	Sall4	Sall4<tm1Yam>/Sall4<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2139360	Sall4	Sall4<tm2Ryn>/Sall4<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2139360	Sall4	Sall4<tm2Ryn>/Sall4<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:2679336	Satb2	Satb2<tm1(cre)Vit>/Satb2<+>	involves: C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:98250	Scn4a	Scn4a<m1Aaa>/Scn4a<tm1.1Ljh>	involves: 129S4/SvJae * BALB/c * C57BL/6J	ht	MP:0011089	perinatal lethality, complete penetrance
+MGI:98251	Scn5a	Scn5a<tm1Clhh>/Scn5a<+>	involves: 129 * 129S/SvEv * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103169	Scn8a	Scn8a<dmu>/Scn8a<med>	involves: C3H * C3HeB/Fe * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:103169	Scn8a	Scn8a<med-TgA4Bs>/Scn8a<nur14>	involves: C3H * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:1858222	Sept9	Sept9<tm1Emfu>/Sept9<tm2.2Emfu>	Not Specified	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:891970	Serpina1b	Serpina1b<tm1Jti>/Serpina1b<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:88095	Serpinc1	Serpinc1<tm1Dwr>/Serpinc1<+>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1891831	Sfn	Sfn<Er>/Sfn<+>	involves: 129/Sv * C57BL/6	ht	MP:0011084	lethality at weaning, incomplete penetrance
+MGI:2671987	Shank2	Shank2<tm1.1Tmb>/Shank2<+>	B6.129-Shank2<tm1.1Tmb>	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:98296	Shc1	Shc1<tm8Paw>/Shc1<tm9.1Paw>	involves: 129S1/Sv * 129X1/SvJ	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98297	Shh	Shh<tm1.1Dje>/Shh<tm1Amc>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6 * CD-1 * FVB/N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1201673	Shox2	Shox2<tm3.1(cre)Ypc>/Shox2<tm4.1Ypc>	involves: 129S1/Sv * 129S6/SvEvTac * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1201673	Shox2	Shox2<tm3.1(cre)Ypc>/Shox2<tm4.1Ypc>	involves: 129S1/Sv * 129S6/SvEvTac * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:108392	Slc20a1	Slc20a1<tm1Lbek>/Slc20a1<tm1.2Lbek>	involves: 129S2/SvPas * BALB/c * C57BL/6 * C57BL/6J	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1341903	Slc23a1	Slc23a1<tm1Mlev>/Slc23a1<+>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:95757	Slc2a3	Slc2a3<tm1Dksr>/Slc2a3<+>	B6.129S4-Slc2a3<tm1Dksr>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1333843	Slc31a1	Slc31a1<tm1Jgt>/Slc31a1<+>	involves: 129X1/SvJ * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1919277	Slc39a4	Slc39a4<tm1Gka>/Slc39a4<+>	involves: 129S1/Sv * C57BL/6 * FVB/N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1919277	Slc39a4	Slc39a4<tm1Gka>/Slc39a4<+>	involves: 129S1/Sv * C57BL/6 * FVB/N	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:109452	Smad1	Smad1<tm1Rjle>/Smad1<+>	involves: 129S6/SvEvTac * NIH Black Swiss	ht	MP:0002082	postnatal lethality
+MGI:108051	Smad2	Smad2<m1Mag>/Smad2<tm1Rob>	either: (involves: 129S/Sv * 129S/SvEv * Black Swiss) or (involves: 129S/Sv * 129S/SvEv * C57BL/6)	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:108051	Smad2	Smad2<tm1Cxd>/Smad2<tm1Mwst>	involves: 129S6/SvEvTac * Black Swiss	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:108051	Smad2	Smad2<tm1Mwst>/Smad2<tm1.2Mwst>	involves: 129S6/SvEvTac * Black Swiss	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:108051	Smad2	Smad2<tm1Rob>/Smad2<tm2.1Rob>	involves: 129S/SvEv * 129S4/SvJae * C57BL/6 * CD-1	ht	MP:0006207	embryonic lethality during organogenesis
+MGI:894293	Smad4	Smad4<m4Mag>/Smad4<tm1Cxd>	either: (involves: 129S/Sv * 129S6/SvEvTac * Black Swiss) or (involves: 129S/Sv * 129S6/SvEvTac * C57BL/6)	ht	MP:0011096	embryonic lethality between implantation and somite formation, complete penetrance
+MGI:88192	Smarca4	Smarca4<enu1>/Smarca4<tm1Mag>	involves: 129S/Sv * C57BL/10 * CBA/Cbi	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:88192	Smarca4	Smarca4<tm1Mag>/Smarca4<+>	involves: 129S/Sv * CD-1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1339795	Smc3	Smc3<tm1a(EUCOMM)Wtsi>/Smc3<+>	involves: C57BL/6N	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1921605	Smchd1	Smchd1<Gt(AD0165)Wtsi>/Smchd1<MommeD1>	involves: 129P2/OlaHsd * C57BL/6 * FVB/N	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:109257	Smn1	Smn1<tm2Mrph>/Smn1<tm4(SMN2)Mrph>	involves: 129S6/SvEvTac * C57BL/6J * C57BL/6NTac	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:98347	Snrpn	Snrpn<tm1Kaj>/Snrpn<+>	either: 129S1-Snrpn<tm1Kaj> or (involves: 129S1/Sv * C57BL/6J)	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:98347	Snrpn	Snrpn<tm2Alb>/Snrpn<+>	involves: 129S7/SvEvBrd * C57BL/6J	ht	MP:0002082	postnatal lethality
+MGI:98347	Snrpn	Snrpn<tm2Cbr>/Snrpn<+>	either: (involves: 129S1/Sv * C57BL/6J) or (involves: 129S1/Sv * BALB/c * C57BL/6J) or (involves: 129S1/Sv * C3H/HeJ * C57BL/6J) or (involves: 129S1/Sv * C57BL/6J * FVB/NJ)	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:98347	Snrpn	Snrpn<tm2Cbr>/Snrpn<+>	either: B6.Cg-Snrpn<tm2Cbr> or (involves: 129S1/Sv * C57BL/6J * DBA/2J)	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:98347	Snrpn	Snrpn<tm2Cbr>/Snrpn<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:98347	Snrpn	Snrpn<tm2Cbr>/Snrpn<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1201791	Socs3	Socs3<tm1Wsa>/Socs3<tm2.1Wsa>	involves: C57BL/6	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98358	Sox10	Sox10<Dom>/Sox10<+>	involves: C57BL/6JLe	ht	MP:0011084	lethality at weaning, incomplete penetrance
+MGI:98358	Sox10	Sox10<gt>/Sox10<tm1Weg>	involves: 129S1/Sv * 129X1/SvJ * GT/Le	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:98358	Sox10	Sox10<tm1Weg>/Sox10<+>	involves: 129S1/Sv * 129X1/SvJ * C3HeB/FeJ * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:107543	Sox17	Sox17<tm1Ysk>/Sox17<+>	B6.129S1-Sox17<tm1Ysk>	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:107543	Sox17	Sox17<tm1Ysk>/Sox17<+>	B6.129S1-Sox17<tm1Ysk>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:103559	Sox18	Sox18<Ra-Op>/Sox18<+>	involves: C57BL/6J * DBA/2J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103559	Sox18	Sox18<Ra-Op>/Sox18<+>	involves: C57BL/6J * DBA/2J	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98364	Sox2	Sox2<lcc>/Sox2<tm1Rlb>	involves: 101/H * 129S/SvEv * C3H/HeH	ht	MP:0002082	postnatal lethality
+MGI:98364	Sox2	Sox2<tm1.1Vep>/Sox2<tm1.2Vlcg>	involves: 129S6/SvEvTac * C57BL/6 * C57BL/6NTac	ht	MP:0011095	embryonic lethality between implantation and placentation, complete penetrance
+MGI:98364	Sox2	Sox2<tm1Lpev>/Sox2<tm2Lpev>	involves: 129S/SvEv * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98364	Sox2	Sox2<tm1Lpev>/Sox2<tm3Lpev>	involves: 129S/SvEv	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98364	Sox2	Sox2<tm1Rlb>/Sox2<+>	involves: 129S/SvEv * MF1	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:98364	Sox2	Sox2<tm2Lpev>/Sox2<tm3Lpev>	involves: 129S/SvEv * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98364	Sox2	Sox2<tm2Skn>/Sox2<tm3Skn>	involves: 129S/SvEv * 129S1/Sv * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:98366	Sox4	Sox4<Igt4>/Sox4<M91Ark>	involves: C3H/HeH * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:98371	Sox9	Sox9<tm1.1Gsr>/Sox9<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98371	Sox9	Sox9<tm1Crm>/Sox9<+>	involves: 129S7/SvEvBrd * C57BL/6 * CD-1	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98371	Sox9	Sox9<tm4Tlu>/Sox9<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:1921642	Specc1l	Specc1l<Gt(DTM096)Byg>/Specc1l<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0002080	prenatal lethality
+MGI:1921642	Specc1l	Specc1l<Gt(DTM096)Byg>/Specc1l<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:1921642	Specc1l	Specc1l<Gt(DTM096)Byg>/Specc1l<Gt(RRH048)Byg>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:1921642	Specc1l	Specc1l<Gt(RRH048)Byg>/Specc1l<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0002080	prenatal lethality
+MGI:1921642	Specc1l	Specc1l<Gt(RRH048)Byg>/Specc1l<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:2685351	Sprtn	Sprtn<tm1Yjm>/Sprtn<tm1.2Yjm>	involves: 129S/SvEv * C57BL/6	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:107585	Srebf2	Srebf2<Gt(YTA054)Byg>/Srebf2<lop13>	involves: 129P2/OlaHsd * 129T1/Sv * C57BL/6J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:107708	Ss18	Ss18<tm1Adg>/Ss18<+>	involves: C57BL/6	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:103038	Stat3	Stat3<tm1Dnl>/Stat3<tm1Dlv>	involves: C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1202297	Stpy	Stpy/Stpy<+>	involves: 101/H * C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1197010	Sumo1	Sumo1<Gt(RRQ016)Byg>/Sumo1<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1197010	Sumo1	Sumo1<Gt(RRQ016)Byg>/Sumo1<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:2441711	Supv3l1	Supv3l1<tm1Jkl>/Supv3l1<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1261758	Suz12	Suz12<Gt(Betageo)1Khe>/Suz12<Plt8>	involves: 129P2/OlaHsd * 129S1/Sv * C57BL/6	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:98472	T	T<29H>/T<+>	involves: BALB/c * TFH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98472	T	T<31H>/T<+>	involves: 101/H * C3H/HeH * TFH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98472	T	T<33H>/T<+>	involves: 101/H * C3H/HeH * TFH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98472	T	T<34H>/T<+>	involves: STOCK T<34H> * TFH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98472	T	T<36H>/T<+>	involves: 101/H * C3H/HeH * TFH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98472	T	T<c-2H>/T<+>	involves: 101/H * C3H/HeH	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:98472	T	T<c>/T	Not Specified	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98472	T	T<c>/T<+>	Not Specified	ht	MP:0002082	postnatal lethality
+MGI:98472	T	T<c>/T<+>	Not Specified	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:103975	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103975	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:103975	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:103976	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:103976	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:103976	T(7;18)50H	T(7;18)50H/+	involves: 101/H * C3H/HeH	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1913763	Tab1	Tab1<tm1Mis>/Tab1<tm1.1Mis>	involves: 129S4/SvJaeSor * 129S7/SvEvBrd * C57BL/6 * CBA	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1915902	Tab2	Tab2<tm1Aki>/Tab2<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1341163	Tacc3	Tacc3<tm1Tno>/Tacc3<+>	involves: C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1341163	Tacc3	Tacc3<tm1Tno>/Tacc3<tm1.2Tno>	involves: C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:98479	Tal	Tal/Tal<+>	Not Specified	ht	MP:0002082	postnatal lethality
+MGI:98490	Tba	Tba/Tba<+>	involves: PERU-COPPOCK	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:98490	Tba	Tba/Tba<+>	involves: PERU-COPPOCK	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:101838	Tbp	Tbp<tm1.1Ees>/Tbp<+>	B6.129X1(Cg)-Tbp<tm1.1Ees>	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:98493	Tbx1	Tbx1<tm1(Fgf8)Vite>/Tbx1<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:98493	Tbx1	Tbx1<tm1.1Dsr>/Tbx1<+>	either: 129/Sv or (involves: 129/Sv * C57BL/6)	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:98493	Tbx1	Tbx1<tm1Bld>/Tbx1<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0002082	postnatal lethality
+MGI:98493	Tbx1	Tbx1<tm1Dsr>/Tbx1<+>	either: 129/Sv or (involves: 129/Sv * C57BL/6)	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:1923615	Tbx18	Tbx18<tm1Sev>/Tbx18<tm1.1Sev>	involves: 129S4/SvJaeSor	ht	MP:0002081	perinatal lethality
+MGI:98495	Tbx3	Tbx3<tm1.1Moon>/Tbx3<tm2Moon>	involves: 129 * C57BL/6 * SJL	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:98495	Tbx3	Tbx3<tm1.1Moon>/Tbx3<tm2Moon>	involves: 129 * C57BL/6 * SJL	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:102541	Tbx5	Tbx5<tm1.1Jse>/Tbx5<+>	either: (involves: 129/Sv) or (involves: Black Swiss)	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:102541	Tbx5	Tbx5<tm1.1Jse>/Tbx5<+>	involves: 129/Sv * Black Swiss	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:102541	Tbx5	Tbx5<tm1Jse>/Tbx5<+>	involves: 129S/SvEv	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:98510	Tcf3	Tcf3<tm1Wein>/Tcf3<tm3Zhu>	involves: 129/Sv * 129S4/SvJaeSor * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:892003	Tcof1	Tcof1<tm1Mjd>/Tcof1<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:892003	Tcof1	Tcof1<tm1Mjd>/Tcof1<+>	involves: C57BL/6 * DBA	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:104671	Tfap2a	Tfap2a<tm1Will>/Tfap2a<tm2.1Will>	involves: 129S1/Sv * Black Swiss	ht	MP:0002081	perinatal lethality
+MGI:98725	Tgfb1	Tgfb1<tm1Jmu>/Tgfb1<+>	involves: 129S6/SvEvTac * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:98725	Tgfb1	Tgfb1<tm1N>/Tgfb1<+>	involves: 129S/SvEv * C57BL/6J * NIH/Ola	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1194497	Tgif1	Tgif1<tm1Ychn>/Tgif1<+>	involves: 129X1/SvJ * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1194497	Tgif1	Tgif1<tm1Ychn>/Tgif1<+>	involves: 129X1/SvJ * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1921004	Thap1	Thap1<tm1.1Meeh>/Thap1<tm1.2Meeh>	involves: 129S/SvEv * BALB/cJ * C3H * C57BL/6	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:1919668	Thoc1	Thoc1<tm1Dwg>/Thoc1<tm2Dwg>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:4949413	Thpr	Thpr/Thpr<+>	B6.C3(B6Ei)-A Thpr/GrsrJ	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2669902	Tmgc19	Tmgc19/Tmgc19<+>	C57BL/6-Chr 19<PWK> Tmgc19	ht	MP:0002082	postnatal lethality
+MGI:1921743	Tnks2	Tnks2<tm1.1Susm>/Tnks2<+>	involves: 129S/SvEv * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:109274	Trim28	Trim28<chatwo>/Trim28<tm1.2Ipc>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:98834	Trp53	Trp53<tm1.1Att>/Trp53<+>	Not Specified	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98834	Trp53	Trp53<tm1Tyj>/Trp53<tm2.1Tyj>	involves: 129S2/SvPas * 129S4/SvJae	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:98834	Trp53	Trp53<tm1Tyj>/Trp53<tm3.1Tyj>	involves: 129S2/SvPas * 129S4/SvJae	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1330810	Trp63	Trp63<tm1Cmis>/Trp63<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1929183	Tsc1	Tsc1<tm1Chdl>/Tsc1<+>	involves: 129P2/OlaHsd  * C57BL/6JOlaHsd	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:1346031	Tshz1	Tshz1<tm1Garr>/Tshz1<tm2.2Garr>	mixed	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1336196	Tsix	Tsix/Xist<tm3Sado>/Tsix<+>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:1336196	Tsix	Tsix<tm2Jtl>/Tsix<+>	involves: 129 * M. m. castaneus	ht	MP:0002080	prenatal lethality
+MGI:1336196	Tsix	Tsix<tm3Jtl>/Tsix<+>	involves: 129	ht	MP:0011103	embryonic lethality at implantation, incomplete penetrance
+MGI:98857	Tsta3	Tsta3<tm1Jbl>/Tsta3<+>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011084	lethality at weaning, incomplete penetrance
+MGI:98860	Tsv	Tsv/Tsv<+>	involves: H STOCK * Peru-Wallace	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:98864	Ttn	Ttn<tm1.1Isrd>/Ttn<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:98864	Ttn	Ttn<tm1.1Isrd>/Ttn<+>	involves: 129S2/SvPas * C57BL/6	ht	MP:0011108	embryonic lethality during organogenesis, incomplete penetrance
+MGI:1329045	Tulp3	Tulp3<tm1Jng>/Tulp3<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6J	ht	MP:0011102	embryonic lethality, incomplete penetrance
+MGI:98880	Tyr	Tyr<c-2CHLb>/Tyr<c-202G>	involves: 101/Rl * C3H/Rl	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:5313310	Ufde	Ufde/Ufde<+>	involves: C3H/HeH	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:5313310	Ufde	Ufde/Ufde<+>	involves: C3H/HeH	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1277988	Uxt	Uxt<tm1.2Sklo>/Uxt<+>	involves: 129S1/Sv * C57BL/6	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:2157980	Vac14	Vac14<Gt(RRP155)Byg>/Vac14<ingls>	involves: 129P2/OlaHsd * C57BL/6J * DBA/2J	ht	MP:0011085	postnatal lethality, complete penetrance
+MGI:1858622	Vamp5	Vamp5<tm1(KOMP)Vlcg>/Vamp5<+>	C57BL/6N-Vamp5<tm1(KOMP)Vlcg>	ht	MP:0011090	perinatal lethality, incomplete penetrance
+MGI:2135272	Vangl2	Vangl2<Lp-2J>/Vangl2<+>	B6.Cg-Vangl2<Lp-2J>/GrsrJ	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:2135272	Vangl2	Vangl2<Lp-2J>/Vangl2<+>	B6.Cg-Vangl2<Lp-2J>/GrsrJ	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:99919	Vcp	Vcp<tm1Dts>/Vcp<tm1.1Dts>	involves: 129P2/OlaHsd * C57BL/6 * FVB/N	ht	MP:0011094	embryonic lethality before implantation, complete penetrance
+MGI:103178	Vegfa	Vegfa<tm1Gne>/Vegfa<+>	involves: 129S2/SvPas * C57BL/6J	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:1313291	Vezf1	Vezf1<tm1Stmn>/Vezf1<+>	B6.129-Vezf1<tm1Stmn>	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:1313291	Vezf1	Vezf1<tm1Stmn>/Vezf1<+>	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:88401	Vsx2	Vsx2<tm1.1(DTA)Kash>/Vsx2<+>	involves: 129S4/SvJae * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:1337100	Wdr1	Wdr1<Gt(XN462)Byg>/Wdr1<rede>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:2443231	Wdr19	Wdr19<dmhd>/Wdr19<twto>	involves: FVB/NJ	ht	MP:0011099	lethality throughout fetal growth and development, complete penetrance
+MGI:98968	Wt1	Wt1<tm1Asc>/Wt1<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:98974	Xist	Tsix/Xist<tm3Sado>/Xist<+>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:98974	Xist	Xist<tm4Sado>/Xist<+>	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	ht	MP:0011091	prenatal lethality, complete penetrance
+MGI:98974	Xist	Xist<tm5.2Nbd>/Xist<+>	involves: 129P2/OlaHsd	ht	MP:0011098	embryonic lethality during organogenesis, complete penetrance
+MGI:98974	Xist	Xist<tm5Sado>/Xist<+>	involves: 129S4/SvJae	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:3797603	Xlch	Xlch/Xlch<+>	involves: C3H/HeJ * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:5707645	Xtol	Xtol/Xtol<+>	C57BL/6J-Xtol/GrsrJ	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:99146	Ybx1	Ybx1<Gt(W094B04)Wrst>/Ybx1<+>	chimera involves: 129S2/SvPas	ht	MP:0011092	embryonic lethality, complete penetrance
+MGI:99150	Yy1	Yy1<tm1Yshi>/Yy1<tm2Yshi>	involves: 129S4/SvJae	ht	MP:0011087	neonatal lethality, complete penetrance
+MGI:99150	Yy1	Yy1<tm1Yshi>/Yy1<tm2Yshi>	involves: 129S4/SvJae	ht	MP:0011109	lethality throughout fetal growth and development, incomplete penetrance
+MGI:99948	Zfhx3	Zfhx3<tm1.2Jtd>/Zfhx3<+>	involves: 129S6/SvEvTac * C57BL/6 * FVB/N * SJL	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99187	Zfp42	Zfp42<Gt(XB238)Byg>/Zfp42<+>	involves: 129P2/OlaHsd * C57BL/6	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:1914233	Zfp830	Zfp830<tm2Cota>/Zfp830<tm2.2Cota>	either: (involves: 129/Sv * 129S2/SvPas * C57BL/6) or (involves: 129/Sv * 129S2/SvPas * BALB/c * C57BL/6)	ht	MP:0011094	embryonic lethality before implantation, complete penetrance
+MGI:1334444	Zfpm2	Zfpm2<lil>/Zfpm2<tm1Sho>	involves: 129S1/Sv * A/J	ht	MP:0011101	prenatal lethality, incomplete penetrance
+MGI:99211	Zfx	Zfx<tm1Dcp>/Zfx<+>	involves: 129S4/SvJae * BALB/c	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:99211	Zfx	Zfx<tm1Dcp>/Zfx<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:99211	Zfx	Zfx<tm1Dcp>/Zfx<+>	involves: 129S4/SvJae * C57BL/6J	ht	MP:0011088	neonatal lethality, incomplete penetrance
+MGI:106683	Zic1	Zic1/Zic4<tm1Kjmi>/Zic1<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:106676	Zic3	Zic3<tm1Bca>/Zic3<+>	involves: 129S7/SvEvBrd * C57BL/6	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:107201	Zic4	Zic1/Zic4<tm1Kjmi>/Zic4<+>	involves: 129P2/OlaHsd * C57BL/6J	ht	MP:0011086	postnatal lethality, incomplete penetrance
+MGI:3040693	Zmiz1	Zmiz1<tm1Zsu>/Zmiz1<+>	involves: 129S6/SvEvTac * C57BL/6J	ht	MP:0011110	preweaning lethality, incomplete penetrance
+MGI:105076	t	t<6>/t<h17>	Not Specified	ht	MP:0002080	prenatal lethality
+MGI:105076	t	t<6>/t<h57>	Not Specified	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:105076	t	t<6>/t<hr4>	Not Specified	ht	MP:0011100	preweaning lethality, complete penetrance
+MGI:105076	t	t<h20>/t<6>	Not Specified	ht	MP:0008762	embryonic lethality
+MGI:105076	t	t<hr1>/t<6>	Not Specified	ht	MP:0011100	preweaning lethality, complete penetrance

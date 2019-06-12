@@ -102,3 +102,20 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# my stuff:
+# Ignore files with results and source data
+tables/*
+source_data/*
+figures/*
+
+# Add place holders for results and source data folders
+# git add -f tables/.placeholder.txt
+# git add -f figures/.placeholder.txt
+# git add -f source_data/.placeholder.txt
+
+# git add -f source_data/gnomad_constraint_original.tsv
+# git add -f source_data/ma_crispr_essential.tsv
+# git add -f source_data/ma_crispr_non_essential.tsv
+# git add -f source_data/ma_lof_hom_tolerant.tsv
+# git add -f source_data/mouse_het_lethal_original.tsv
