@@ -63,7 +63,7 @@ To export gene scores from the database run:
 python export_data.py
 ```
 
-**Note**: Individual operations can be enabled/disabled via comments in the _main_ method of all scripts, check them before performing the analysis.
+**Note**: Individual operations can be enabled/disabled via comments in the _main_ method in all scripts, check them before performing the analysis.
 
 ### Code Description
 
