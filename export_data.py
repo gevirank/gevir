@@ -9,12 +9,17 @@ from scipy.stats import fisher_exact, rankdata
 from common import MongoDB, calculate_percentiles, sort_dict_by_values, write_table_to_csv
 from gevir import get_transcript_amino_acids_xpositions
 from gnomad_utils import xpos_to_pos
-from figures import OmimSets, EssentialSets
+from gene_sets import OmimSets, EssentialSets
 
 OUTPUT_FOLDER = './tables/'
 
 MIN_AUTOSOMAL_COVERAGE = 50
 MIN_XY_COVERAGE = 45
+
+# 5% offset = 18,352 / 20 ~= 918
+# 5% offset = 19,361 / 20 ~= 968
+AD_AR_ENRICHMENT_OFFSET = 968
+AD_AR_ENRICHMENT_OFFSET_NO_OUTLIERS = 918
 
 def export_gene_identifiers(db):
 	transcript_ids = []
@@ -72,6 +77,7 @@ class GeneScore():
 		self.oe_lof_null_p = 1.0
 		self.gevir_and_oe_lof_null_p = 1.0
 
+		self.include_gene_groups = False
 		self.ad = 'N'
 		self.ar = 'N'
 		self.null = 'N'
@@ -115,12 +121,13 @@ class GeneScore():
 		dictionary['loeuf_null_p'] = self.oe_lof_null_p
 		dictionary['gevir_and_loeuf_null_p'] = self.gevir_and_oe_lof_null_p
 
-		dictionary['ad_group'] = self.ad
-		dictionary['ar_group'] = self.ar
-		dictionary['null_group'] = self.null
-		dictionary['cell_essential_group'] = self.cell_essential
-		dictionary['cell_non_essential_group'] = self.cell_non_essential
-		dictionary['mouse_het_lethal_group'] = self.mouse_het_lethal
+		if self.include_gene_groups == True:
+			dictionary['ad_group'] = self.ad
+			dictionary['ar_group'] = self.ar
+			dictionary['null_group'] = self.null
+			dictionary['cell_essential_group'] = self.cell_essential
+			dictionary['cell_non_essential_group'] = self.cell_non_essential
+			dictionary['mouse_het_lethal_group'] = self.mouse_het_lethal
 
 		dictionary['gnomad_outlier'] = self.gnomad_outlier
 		dictionary['gnomad_gene_issues'] = self.gnomad_gene_issues
@@ -128,7 +135,7 @@ class GeneScore():
 		return dictionary
 
 
-def export_gene_scores(db, enrichment_offset=1000):
+def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 	gene_scores = {}
 	gevir_genes = db.gevir.gevir_scores.find({})
 	omim_sets = OmimSets(db)
@@ -140,18 +147,20 @@ def export_gene_scores(db, enrichment_offset=1000):
 		gene_score.gene_name = gevir_gene['gene_name']
 		gene_score.canonical_transcript = gevir_gene['_id']
 
-		if transcript_id in omim_sets.ad:
-			gene_score.ad = 'Y'
-		if transcript_id in omim_sets.ar:
-			gene_score.ar = 'Y'
-		if transcript_id in essential_sets.nulls:
-			gene_score.null = 'Y'
-		if transcript_id in essential_sets.crispr_essential:	
-			gene_score.cell_essential = 'Y'
-		if transcript_id in essential_sets.crispr_non_essential:	
-			gene_score.cell_non_essential = 'Y'
-		if transcript_id in essential_sets.mouse_het_lethal:	
-			gene_score.mouse_het_lethal = 'Y'
+		if include_gene_groups:
+			gene_score.include_gene_groups == True
+			if transcript_id in omim_sets.ad:
+				gene_score.ad = 'Y'
+			if transcript_id in omim_sets.ar:
+				gene_score.ar = 'Y'
+			if transcript_id in essential_sets.nulls:
+				gene_score.null = 'Y'
+			if transcript_id in essential_sets.crispr_essential:
+				gene_score.cell_essential = 'Y'
+			if transcript_id in essential_sets.crispr_non_essential:
+				gene_score.cell_non_essential = 'Y'
+			if transcript_id in essential_sets.mouse_het_lethal:
+				gene_score.mouse_het_lethal = 'Y'
 
 		gnomad_gene = db.gevir.gnomad_scores.find_one({'_id': transcript_id})
 		if not gnomad_gene['no_issues']:
@@ -295,8 +304,8 @@ def export_gene_scores(db, enrichment_offset=1000):
 	db.gevir.web_gene_scores.drop()
 	for gene_score in gene_scores.values():
 		gene_score = gene_score.get_dictionary()
-		db.gevir.web_gene_scores.insert(gene_score)
 		table.append(gene_score.values())
+		db.gevir.web_gene_scores.insert(gene_score)
 
 	output_csv = OUTPUT_FOLDER + 'gene_scores.csv'
 	write_table_to_csv(table, output_csv)
@@ -590,7 +599,7 @@ def main():
 	# 5% offset = 18,352 / 20 ~= 918
 	# 5% offset = 19,361 / 20 ~= 968
 	# Supplementary Table S5
-	export_gene_scores(db, enrichment_offset=968)
+	export_gene_scores(db, enrichment_offset=AD_AR_ENRICHMENT_OFFSET)
 
 	# Exports datasets required to build the website
 	#export_gene_identifiers(db)

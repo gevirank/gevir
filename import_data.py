@@ -3,7 +3,6 @@ import sys
 import progressbar
 import pymongo
 import csv
-import pronto
 import json
 from collections import OrderedDict
 from intermine.webservice import Service
