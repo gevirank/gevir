@@ -54,6 +54,10 @@ To calculate GeVIR scores run:
 ```
 python gevir.py
 ```
+To create gene sets used in the figures production run:
+```
+python gene_sets.py
+```
 To produce all the figures run:
 ```
 python figures.py
@@ -71,10 +75,15 @@ python export_data.py
 
 - **gevir.py** - computes Variant Intolerant Regions (VIRs) from gnomAD variant data and creates GeVIR gene scores
 
+- **gene_sets.py** - combines gene scores (e.g. GeVIR, LOEUF, Missense z-score) into a single dataset, loads disease and essential gene lists from the database
+
 - **export_data.py** - exports VIR and GeVIR gene scores data as csvs
 
 - **figures.py** - performs gene scores evaluation, draws figures and reports statistics
+
 - **gnomad_utils.py** - modified version of gnomAD browser code, obtained from:
 https://github.com/macarthur-lab/gnomad_browser/blob/master/utils.py
+
 - **common.py** - contains methods commonly used by other scripts
+
 - **csv_reader.py** - custom csv reader, used to import data into local database
