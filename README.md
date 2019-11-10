@@ -12,10 +12,8 @@ https://github.com/macarthur-lab/gnomad_browser
 Additionally, it requires following datasets:
 - The GERP++ scores, can be obtained from
 http://mendel.stanford.edu/SidowLab/downloads/gerp/hg19.GERP_scores.tar.gz
-- The Ensembl coding sequences, can be obtained from
-http://grch37.ensembl.org/biomart/martview/e19a3419814f357a70908603f15f7bae?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.sequences.ensembl_gene_id|hsapiens_gene_ensembl.default.sequences.ensembl_transcript_id|hsapiens_gene_ensembl.default.sequences.coding&FILTERS=&VISIBLEPANEL=resultspanel
-- The Ensembl peptide sequences, can be obtained from
-http://grch37.ensembl.org/biomart/martview/e19a3419814f357a70908603f15f7bae?VIRTUALSCHEMANAME=default&ATTRIBUTES=hsapiens_gene_ensembl.default.sequences.ensembl_gene_id|hsapiens_gene_ensembl.default.sequences.ensembl_transcript_id|hsapiens_gene_ensembl.default.sequences.peptide&FILTERS=&VISIBLEPANEL=resultspanel
+- The Ensembl coding and peptide sequences from build GRCh37/hg19 can be found at
+https://grch37.ensembl.org/biomart/martview/ (Dataset: Human genes (GRCh37.p13); Attributes→ Sequences → “Coding sequence” and “Peptide”).
 - The gnomAD gene constraint metrics, can be obtained from 
 https://storage.googleapis.com/gnomad-public/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz
 - The OMIM genemap2.txt file can be found, **_AFTER REGISTRATION_**, at
