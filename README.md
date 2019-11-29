@@ -33,6 +33,8 @@ https://github.com/macarthur-lab/gene_lists/blob/master/lists/CEGv2_subset_unive
 - The human-mouse ortholog mapping file can be obtained from
 http://www.informatics.jax.org/downloads/reports/HMD_HumanPhenotype.rpt
 -The mouse heterozygous lethal genes can be obtained from http://mousemine.org/ by quiring the database with following constraints: subject.zygosity = 'ht' (heterozygous) AND ontologyTerm.name CONTAINS 'lethal'. Alternatively, import_data.py contains script to query mousemine database programatically.
+- The HGNC approved gene symbols can be obtained from
+https://www.genenames.org/download/statistics-and-files/
 
 **Note 1**: All datasets have to be placed into _./source_data_ directory and have names as defined at the top of _import_data.py_ script (can be changed there). ClinVar dataset requires reannotation with Ensembl VEP script, instructions how to install and use it can be found here: https://github.com/Ensembl/ensembl-vep. 
 
