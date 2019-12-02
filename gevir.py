@@ -24,6 +24,7 @@ OUTPUT_FOLDER = './tables/'
 
 REGIONS_COLLECTION = 'variant_regions'
 GEVIR_SCORES_COLLECTION = 'gevir_scores'
+GEVIR_NO_GERP_SCORES_COLLECTION = 'gevir_no_gerp_scores'
 
 VALID_FILTERS = set(['PASS', 'SEGDUP', 'LCR'])
 
@@ -160,7 +161,6 @@ def get_transcript_amino_acids_xpositions(db, transcript_id):
 	codons = {}
 	for x in range(0, len(codon_xposes)):
 		codons[x + 1] = (codon_xposes[x][0], codon_xposes[x][2])
-		#codons[x + 1] = (codon_xposes[x][0], codon_xposes[x][1], codon_xposes[x][2])
 
 	return codons
 
@@ -503,7 +503,6 @@ def calculate_region_weights(db, transcript_ids, min_mean_coverage, weights_repo
 	if weights_report_name:
 		ex_region_weight = RegionSizeWeight()
 		ex_region_weight = ex_region_weight.get_dictionary()
-		#headers = ['size', 'count', 'count_longer_regions', 'frequency', 'weight']
 		headers = ex_region_weight.keys()
 		table = [headers]
 
@@ -513,23 +512,16 @@ def calculate_region_weights(db, transcript_ids, min_mean_coverage, weights_repo
 	for size in sizes:
 		weight = float(all_regions) / (all_regions - sum_regions_below)
 		region_weights[size] = weight
-		#region_weights[size] = 1 / ((all_regions - sum_regions_below) / float(all_regions))
 		region_size_weight = RegionSizeWeight()
 		region_size_weight.size = size
 		region_size_weight.count = region_sizes[size]
 		region_size_weight.count_longer_regions = all_regions - sum_regions_below
 		region_size_weight.frequency = (all_regions - sum_regions_below) / float(all_regions)
-		#region_size_weight.weight = 1 / ((all_regions - sum_regions_below) / float(all_regions))
 		region_size_weight.weight = weight
 		region_size_weight = region_size_weight.get_dictionary()
 		region_size_weights[str(size)] = region_size_weight
 
 		if weights_report_name:
-			'''
-			row = [size, region_sizes[size], all_regions - sum_regions_below, 
-			       (all_regions - sum_regions_below) / float(all_regions),
-			       1 / ((all_regions - sum_regions_below) / float(all_regions))]
-			'''
 			row = region_size_weight.values()
 			table.append(row)
 
@@ -548,7 +540,7 @@ def calculate_region_weights(db, transcript_ids, min_mean_coverage, weights_repo
 	return region_weights
 
 
-def calculate_transcripts_scores(db, transcript_ids, min_mean_coverage, transcript_scores, weights_report_name='', xy=False):
+def calculate_transcripts_scores(db, transcript_ids, min_mean_coverage, transcript_scores, weights_report_name='', xy=False, no_gerp=False):
 	# calculate region weights (longer regions are rarely observed and have larger weights)
 	region_weights = calculate_region_weights(db, transcript_ids, min_mean_coverage, weights_report_name=weights_report_name, xy=xy)
 	
@@ -567,7 +559,7 @@ def calculate_transcripts_scores(db, transcript_ids, min_mean_coverage, transcri
 		Values between 1 and -1 are rounded to closest integer (i.e. 1 or -1)
 
 		Note: GeVIR score can be negative if there are many non-coservative gene regions
-		      Such regions might contain non-pass quality variants (e.g. MUC2)
+		      Such regions might contain non-pass quality variants (e.g. MUC12)
 		      and therefore have opposite impact on GeVIR score
 		'''
 
@@ -575,18 +567,21 @@ def calculate_transcripts_scores(db, transcript_ids, min_mean_coverage, transcri
 		for region in regions:
 			length = region['lenght']
 			gerp = region['gerp_mean']
-			
+
+
 			if gerp < 1 and gerp > 0:
 				gerp = 1
 			elif gerp > -1 and gerp < 0:
 				gerp = -1
-			
-			gevir_score += region_weights[length] * gerp
+
+			if no_gerp:
+				gevir_score += region_weights[length]
+			else:
+				gevir_score += region_weights[length] * gerp
 
 		# Normalise by number of regions in a transcript INCLUDING low covered regions
 		# Longer transcript normally have more regions in general and 
 		# have greater chance to contain long region, thus have to be penelised more
-
 
 		gevir_score = gevir_score / regions_count
 
@@ -598,7 +593,12 @@ def calculate_transcripts_scores(db, transcript_ids, min_mean_coverage, transcri
 	return transcript_scores
 
 
-def create_gevir_scores(db):
+def create_gevir_scores(db, no_gerp=False):
+	if no_gerp:
+		collection = GEVIR_NO_GERP_SCORES_COLLECTION
+	else:
+		collection = GEVIR_SCORES_COLLECTION
+
 	transcript_ids = []
 	transcript_ids_xy = []
 
@@ -615,16 +615,16 @@ def create_gevir_scores(db):
 
 	transcript_scores = OrderedDict()
 	print 'Autosomal Transcripts:', len(transcript_ids)
-	calculate_transcripts_scores(db, transcript_ids, MIN_AUTOSOMAL_COVERAGE, transcript_scores, weights_report_name='autosomal_region_weights_table.csv', xy=False)
+	calculate_transcripts_scores(db, transcript_ids, MIN_AUTOSOMAL_COVERAGE, transcript_scores, weights_report_name='autosomal_region_weights_table.csv', xy=False, no_gerp=no_gerp)
 	print 'XY Transcripts:', len(transcript_ids_xy)
-	calculate_transcripts_scores(db, transcript_ids_xy, MIN_XY_COVERAGE, transcript_scores, weights_report_name='xy_region_weights_table.csv', xy=True)
+	calculate_transcripts_scores(db, transcript_ids_xy, MIN_XY_COVERAGE, transcript_scores, weights_report_name='xy_region_weights_table.csv', xy=True, no_gerp=no_gerp)
 	# Sort transcripts by Gevir score (descending), used to calculate percentiles (low percentile = high intolerance)
 	transcript_scores = sort_dict_by_values(transcript_scores, reverse=True)
 	
 	rank = 1
 	max_rank = float(len(transcript_scores))
 
-	db.gevir[GEVIR_SCORES_COLLECTION].drop()
+	db.gevir[collection].drop()
 
 	total_lines = len(transcript_scores)
 	line_number = 0
@@ -641,27 +641,29 @@ def create_gevir_scores(db):
 		gevir_gene.gevir_percentile = (rank / max_rank) * 100
 		rank += 1
 
-		db.gevir[GEVIR_SCORES_COLLECTION].insert(gevir_gene.get_dictionary())
+		db.gevir[collection].insert(gevir_gene.get_dictionary())
 
 		line_number += 1
 		bar.update((line_number + 0.0) / total_lines)
 	bar.finish()
 
-	db.gevir[GEVIR_SCORES_COLLECTION].create_index([('gene_name', pymongo.ASCENDING)], name='gene_name_1')
-	db.gevir[GEVIR_SCORES_COLLECTION].create_index([('gene_id', pymongo.ASCENDING)], name='gene_id_1')
+	db.gevir[collection].create_index([('gene_name', pymongo.ASCENDING)], name='gene_name_1')
+	db.gevir[collection].create_index([('gene_id', pymongo.ASCENDING)], name='gene_id_1')
 
 
 def main():
 	db = MongoDB()
 	# Create "variant_regions" collection from gnomAD variants data
-	#calculate_all_transcripts_regions(db)
+	# This method does not have to be rerun to recreate GeVIR scores.
+	calculate_all_transcripts_regions(db)
 
 	# Create GeVIR scores, requires "variant_regions" collection
 	# If regions collection was created with INCLUDE_GNOMAD_OUTLIERS=True,
-	# only this method has to be rerun with INCLUDE_GNOMAD_OUTLIERS=False 
+	# only these methods have to be rerun with INCLUDE_GNOMAD_OUTLIERS=False 
 	# to create gene scores for a dataset without outliers
-	# Creates Supplementary Tables S6, S7
-	#create_gevir_scores(db)
+	# Creates Supplementary Tables 7 and 8
+	create_gevir_scores(db, no_gerp=True)
+	create_gevir_scores(db, no_gerp=False)
 
 
 if __name__ == "__main__":

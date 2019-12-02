@@ -108,6 +108,7 @@ venv.bak/
 tables/*
 source_data/*
 figures/*
+temp.py
 
 # Add place holders for results and source data folders
 # git add -f tables/.placeholder.txt

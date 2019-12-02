@@ -67,6 +67,14 @@ Alternatively, check mousemine mehod to generate the file.
 '''
 MOUSE_HET_LETHAL_TSV = SOURCE_DATA_FOLDER + 'mouse_het_lethal_original.tsv'
 
+# NOTE: UNEECON scores were not evaluated in the original GeVIR manuscript,
+# since UNEECON preprint was published at the late stage of our manuscript review.
+# The code which analyse UNEECON scores is commented (ignored).
+# https://github.com/yifei-lab/UNEECON 
+#UNEECON_G_TSV = SOURCE_DATA_FOLDER + 'UNEECON-G_gene_score_v1.0_hg19.tsv'
+
+# https://www.genenames.org/download/statistics-and-files/
+HUGO_GENES_JSON = SOURCE_DATA_FOLDER + 'protein-coding_gene.json'
 
 ############
 ### GERP ###
@@ -328,28 +336,51 @@ def import_omim(db):
 				# There might be multiple diseases associated with the same gene
 
 				if '{' in phenotype and '}' in phenotype:
-					inheritance.add('')
+					ignore_inheritance = True
 				else:
-					if 'autosomal recessive' in lower_phenotype:
+					ignore_inheritance = False
+
+				#if '{' in phenotype and '}' in phenotype:
+				#	inheritance.add('')
+				#else:
+				phenotypes_inheritance[phenotype_id] = []
+				if 'autosomal recessive' in lower_phenotype:
+					if ignore_inheritance:
+						inheritance.add('')
+					else:
 						inheritance.add('AR')
-						phenotypes_inheritance[phenotype_id] = 'AR'
-						known_inheritance = True
-					if 'x-linked recessive' in lower_phenotype:
+					phenotypes_inheritance[phenotype_id].append('AR')
+					known_inheritance = True
+				if 'x-linked recessive' in lower_phenotype:
+					if ignore_inheritance:
+						inheritance.add('')
+					else:
 						inheritance.add('XLR')
-						phenotypes_inheritance[phenotype_id] = 'XLR'
-						known_inheritance = True
-					if 'autosomal dominant' in lower_phenotype:
+					phenotypes_inheritance[phenotype_id].append('XLR')
+					known_inheritance = True
+				if 'autosomal dominant' in lower_phenotype:
+					if ignore_inheritance:
+						inheritance.add('')
+					else:
 						inheritance.add('AD')
-						phenotypes_inheritance[phenotype_id] = 'AD'
-						known_inheritance = True
-					if 'x-linked dominant' in lower_phenotype:
+					phenotypes_inheritance[phenotype_id].append('AD')
+					known_inheritance = True
+				if 'x-linked dominant' in lower_phenotype:
+					if ignore_inheritance:
+						inheritance.add('')
+					else:
 						inheritance.add('XLD')
-						phenotypes_inheritance[phenotype_id] = 'XLD'
-						known_inheritance = True
-					if not known_inheritance:
+					phenotypes_inheritance[phenotype_id].append('XLD')
+					known_inheritance = True
+				if not known_inheritance:
+					if ignore_inheritance:
+						inheritance.add('')
+					else:
 						inheritance.add('unknown')
-						phenotypes_inheritance[phenotype_id] = 'unknown'
-					
+					phenotypes_inheritance[phenotype_id].append('unknown')
+
+				phenotypes_inheritance[phenotype_id].sort()
+				phenotypes_inheritance[phenotype_id] = ', '.join(phenotypes_inheritance[phenotype_id])					
 
 		if len(inheritance) > 0 or susceptibility:
 			omim_gene = OmimGene()
@@ -951,6 +982,7 @@ class GeneCCRs():
 	def __init__(self):
 		self.transcript_id = ''
 		self.gene_name = ''
+		self.chrom = ''
 		self.ccrs_gte_95 = 0
 		self.ccrs_gte_96 = 0
 		self.ccrs_gte_97 = 0
@@ -961,6 +993,7 @@ class GeneCCRs():
 		dictionary = OrderedDict()
 		dictionary['transcript_id'] = self.transcript_id
 		dictionary['gene_name'] = self.gene_name
+		dictionary['chrom'] = self.chrom
 		dictionary['ccrs_gte_95'] = self.ccrs_gte_95
 		dictionary['ccrs_gte_96'] = self.ccrs_gte_96
 		dictionary['ccrs_gte_97'] = self.ccrs_gte_97
@@ -981,6 +1014,7 @@ def count_gene_ccrs(db):
 		if gene_name not in genes_ccrs:
 			genes_ccrs[gene_name] = GeneCCRs()
 			genes_ccrs[gene_name].gene_name = gene_name
+			genes_ccrs[gene_name].chrom = ccr['chrom']
 
 		ccr_pct = ccr['ccr_pct']
 		if ccr_pct >= 95:
@@ -1112,35 +1146,101 @@ def import_mouse_het_lethal_knockout_genes(db):
 	db.gevir.mouse_het_lethal.insert({'_id': 'gene_names', 'data': list(gene_names_het_lethal)})
 	db.gevir.mouse_het_lethal.insert({'_id':'transcript_ids', 'data': list(gene_transcripts_het_lethal)})
 
+#################
+### UNEECON-G ###
+#################
+
+class Uneecon_G():
+	def __init__(self, transcript_id, gene_id, gene_name, uneecon_g):
+		self.transcript_id = transcript_id
+		self.gene_id = gene_id
+		self.gene_name = gene_name		
+		self.uneecon_g = uneecon_g
+
+	def get_dictionary(self):
+		dictionary = OrderedDict()
+		dictionary['_id'] = self.transcript_id
+		dictionary['gene_id'] = self.gene_id
+		dictionary['gene_name'] = self.gene_name
+		dictionary['uneecon_g'] = self.uneecon_g
+		return dictionary
+
+
+def import_uneecon_g(db):
+	uneecon_g_genes = []
+	uneecon_g = CsvReader(UNEECON_G_TSV, delimiter='\t')
+	for document in uneecon_g.data:
+		gene_info = document['#gene']
+		gene_id, gene_name = gene_info.split('|')
+		gene_id = gene_id.split('.')[0]
+		uneecon_score = float(document['UNEECON-G'])
+
+		exac_gene = db.exac.genes.find_one({'gene_id': gene_id})
+		transcript_id = exac_gene['canonical_transcript']
+		uneecon_g_gene = Uneecon_G(transcript_id, gene_id, gene_name, uneecon_score)
+		uneecon_g_genes.append(uneecon_g_gene.get_dictionary())
+
+	db.gevir.uneecon_genes.drop()
+	db.gevir.uneecon_genes.insert_many(uneecon_g_genes)
+
+	db.gevir.uneecon_genes.create_index([('gene_id', pymongo.ASCENDING)], name='gene_id_1')
+	db.gevir.uneecon_genes.create_index([('gene_name', pymongo.ASCENDING)], name='gene_name_1')
+	db.gevir.uneecon_genes.create_index([('uneecon_g', pymongo.ASCENDING)], name='uneecon_g_1')
+
+
+############
+### HUGO ###
+############
+
+def import_hugo_genes(db):
+	# HUGO_GENES_JSON
+	genes = []
+	with open(HUGO_GENES_JSON, 'r') as f:
+		# Note: HUGO json contains only 1 line...
+		for line in f:
+			data = json.loads(line)['response']['docs']
+			# process genes data
+			for gene in data:
+				processed_gene = OrderedDict()
+				for k, v in gene.iteritems():
+					if '.' in k:
+						k = k.replace('.', '_dot_')
+					processed_gene[k] = v
+
+				genes.append(processed_gene)
+
+	db.gevir.hugo.drop()
+	db.gevir.hugo.insert_many(genes)
+
 
 def main():
 	db = MongoDB()
 	# Creates additional database (gerp) with gerp score for each chromosomal position
 	# IMPORTANT: this operation might require quite a lot of time to run (progress for each chromosome will be displayed)
 	# Final database size should be ~36.6 GB (storage size occupied on disk)
-	#import_gerp(db)
+	import_gerp(db)
 
 	# ENS CDS FASTA
-	#import_ens_cds_fasta(db, ENS_CDS_FASTA, 'ens_cds_fasta')
-	#import_ens_cds_fasta(db, ENS_AA_FASTA, 'ens_aa_fasta')
+	import_ens_cds_fasta(db, ENS_CDS_FASTA, 'ens_cds_fasta')
+	import_ens_cds_fasta(db, ENS_AA_FASTA, 'ens_aa_fasta')
 
 	# gnomAD scores (22/10/18)
-	#import_gnomad_scores(db, new_gnomad_file=False)
+	import_gnomad_scores(db, new_gnomad_file=False)
 
 	# OMIM data donwloaded (11/13/18)
-	#import_omim(db)
+	import_omim(db)
 
 	# ClinVar data donwloaded (21/08/18)
-	#import_clin_var(db)
+	import_clin_var(db)
 
 	# Conservative Coding RegionS
 	# https://s3.us-east-2.amazonaws.com/ccrs/ccr.html 
-	#import_ccrs(db)
-	#count_gene_ccrs(db)
+	import_ccrs(db)
+	count_gene_ccrs(db)
 
 	# Mac Arthur Datasets
 	# https://github.com/macarthur-lab/gene_lists
-	#import_mac_arthur_gene_lists(db)
+	import_mac_arthur_gene_lists(db)
 
 	# Mouse Het Lethal Knockout Genes (5/02/19)
 	# http://www.mousemine.org/mousemine/templates.do
@@ -1149,7 +1249,13 @@ def main():
 	# Alternatively, use following method to query mousemine database:
 	# query_mousemine_to_create_mouse_het_lethal_knockout_genes()
 
-	# import_mouse_het_lethal_knockout_genes(db)
+	import_mouse_het_lethal_knockout_genes(db)
+
+	# HUGO (15/11/19)
+	import_hugo_genes(db)
+
+	# UNEECON-G (12/09/19)
+	#import_uneecon_g(db)
 
 if __name__ == "__main__":
 	sys.exit(main())

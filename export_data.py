@@ -47,11 +47,39 @@ def export_gene_identifiers(db):
 class GeneScore():
 	def __init__(self):
 		self.gene_name = ''
+		self.gene_id = ''
 		self.canonical_transcript = ''
+		self.approved_symbol = ''
+		self.length = 0
 
 		self.gevir_percentile = 0.0
 		self.oe_lof_percentile = 0.0
 		self.gevir_and_oe_lof_percentile = 0.0
+
+		# Start of statistical comparison raw data
+		# Examined group stats
+		self.gevir_ex_group_range = ''
+		self.oe_lof_ex_group_range = ''
+		self.gevir_and_oe_lof_ex_group_range = ''
+
+		self.gevir_ex_group_ad_num = 0
+		self.oe_lof_ex_group_ad_num = 0
+		self.gevir_and_oe_lof_ex_group_ad_num = 0
+
+		self.gevir_ex_group_ar_num = 0
+		self.oe_lof_ex_group_ar_num = 0
+		self.gevir_and_oe_lof_ex_group_ar_num = 0
+
+		self.gevir_ex_group_all_num = 0
+		self.oe_lof_ex_group_all_num = 0
+		self.gevir_and_oe_lof_ex_group_all_num = 0
+
+		# Reference (i.e. all other genes) group stats
+		self.ref_group_ad_num = 0
+		self.ref_group_ar_num = 0
+		self.ref_group_all_num = 0
+
+		# End of statistical comparison raw data
 
 		self.gevir_ad_enrichment = 0.0
 		self.oe_lof_ad_enrichment = 0.0
@@ -84,6 +112,7 @@ class GeneScore():
 		self.cell_essential = 'N'
 		self.cell_non_essential = 'N'
 		self.mouse_het_lethal = 'N'
+		self.ccrs_gte_95 = ''
 
 		self.gnomad_outlier = 'N'
 		self.gnomad_gene_issues = ''
@@ -91,35 +120,53 @@ class GeneScore():
 	def get_dictionary(self):
 		dictionary = OrderedDict()
 		dictionary['gene_name'] = self.gene_name
+		dictionary['gene_id'] = self.gene_id
 		dictionary['canonical_transcript'] = self.canonical_transcript
+		dictionary['approved_symbol'] = self.approved_symbol
+		dictionary['protein_length'] = self.length
 
 		dictionary['gevir_percentile'] = self.gevir_percentile
 		dictionary['loeuf_percentile'] = self.oe_lof_percentile
-		dictionary['gevir_and_loeuf_percentile'] = self.gevir_and_oe_lof_percentile
-		
+		dictionary['virlof_percentile'] = self.gevir_and_oe_lof_percentile
+
+		# Raw stats number
+
+		dictionary['gevir_examined_range (ex_r)'] = self.gevir_ex_group_range
+		dictionary['loeuf_examined_range (ex_r)'] = self.oe_lof_ex_group_range
+		dictionary['virlof_examined_range (ex_r)'] = self.gevir_and_oe_lof_ex_group_range
+
+		dictionary['gevir_ex_r_ad_num'] = self.gevir_ex_group_ad_num
+		dictionary['loeuf_ex_r_ad_num'] = self.oe_lof_ex_group_ad_num
+		dictionary['virlof_ex_r_ad_num'] = self.gevir_and_oe_lof_ex_group_ad_num
+
+		dictionary['gevir_ex_r_ar_num'] = self.gevir_ex_group_ar_num
+		dictionary['loeuf_ex_r_ar_num'] = self.oe_lof_ex_group_ar_num
+		dictionary['virlof_ex_r_ar_num'] = self.gevir_and_oe_lof_ex_group_ar_num
+
+		dictionary['gevir_ex_r_total'] = self.gevir_ex_group_all_num
+		dictionary['loeuf_ex_r_total'] = self.oe_lof_ex_group_all_num
+		dictionary['virlof_ex_r_total'] = self.gevir_and_oe_lof_ex_group_all_num
+
+		dictionary['all_genes_ad_num'] = self.ref_group_ad_num
+		dictionary['all_genes_ar_num'] = self.ref_group_ar_num
+		dictionary['all_genes_total'] = self.ref_group_all_num
+
+
 		dictionary['gevir_ad_enrichment'] = self.gevir_ad_enrichment
 		dictionary['loeuf_ad_enrichment'] = self.oe_lof_ad_enrichment
-		dictionary['gevir_and_loeuf_ad_enrichment'] = self.gevir_and_oe_lof_ad_enrichment
+		dictionary['virlof_ad_enrichment'] = self.gevir_and_oe_lof_ad_enrichment
 
 		dictionary['gevir_ar_enrichment'] = self.gevir_ar_enrichment
 		dictionary['loeuf_ar_enrichment'] = self.oe_lof_ar_enrichment
-		dictionary['gevir_and_loeuf_ar_enrichment'] = self.gevir_and_oe_lof_ar_enrichment
-
-		dictionary['gevir_null_enrichment'] = self.gevir_null_enrichment
-		dictionary['loeuf_null_enrichment'] = self.oe_lof_null_enrichment
-		dictionary['gevir_and_loeuf_null_enrichment'] = self.gevir_and_oe_lof_null_enrichment
+		dictionary['virlof_ar_enrichment'] = self.gevir_and_oe_lof_ar_enrichment
 
 		dictionary['gevir_ad_p'] = self.gevir_ad_p
 		dictionary['loeuf_ad_p'] = self.oe_lof_ad_p
-		dictionary['gevir_and_loeuf_ad_p'] = self.gevir_and_oe_lof_ad_p
+		dictionary['virlof_ad_p'] = self.gevir_and_oe_lof_ad_p
 
 		dictionary['gevir_ar_p'] = self.gevir_ar_p
 		dictionary['loeuf_ar_p'] = self.oe_lof_ar_p
-		dictionary['gevir_and_loeuf_ar_p'] = self.gevir_and_oe_lof_ar_p
-
-		dictionary['gevir_null_p'] = self.gevir_null_p
-		dictionary['loeuf_null_p'] = self.oe_lof_null_p
-		dictionary['gevir_and_loeuf_null_p'] = self.gevir_and_oe_lof_null_p
+		dictionary['virlof_ar_p'] = self.gevir_and_oe_lof_ar_p
 
 		if self.include_gene_groups == True:
 			dictionary['ad_group'] = self.ad
@@ -128,11 +175,49 @@ class GeneScore():
 			dictionary['cell_essential_group'] = self.cell_essential
 			dictionary['cell_non_essential_group'] = self.cell_non_essential
 			dictionary['mouse_het_lethal_group'] = self.mouse_het_lethal
+			dictionary['ccrs_gte_95'] = self.ccrs_gte_95
 
 		dictionary['gnomad_outlier'] = self.gnomad_outlier
 		dictionary['gnomad_gene_issues'] = self.gnomad_gene_issues
 
 		return dictionary
+
+
+def get_transcript_ccrs(db):
+	transcripts_ccrs = {}
+	ccr_genes = db.gevir.ccr_genes.find({})
+	for ccr_gene in ccr_genes:
+		transcripts_ccrs[ccr_gene['transcript_id']] = ccr_gene['ccrs_gte_95']
+	return transcripts_ccrs
+
+
+def get_transcript_lengths(db):
+	transcript_lengths = {}
+	ens_proteins = db.gevir.ens_aa_fasta.find({})
+	for ens_protein in ens_proteins:
+		length = len(ens_protein['cds']) - 1 # do not count stop codon
+		transcript_lengths[ens_protein['_id']] = length
+	return transcript_lengths
+
+
+def get_transcript_id_to_gene_id_dict(db):
+	transcript_id_to_gene_id = {}
+	genes = db.exac.genes.find({})
+	for gene in genes:
+		if 'canonical_transcript' not in gene:
+			continue
+		transcript_id_to_gene_id[gene['canonical_transcript']] = gene['gene_id']
+	return transcript_id_to_gene_id
+
+
+def get_gene_id_to_hugo_name(db):
+	gene_id_to_hugo_name = {}
+	hugo_genes = db.gevir.hugo.find({ "ensembl_gene_id": {"$exists": True }, "symbol": { "$exists": True }, "status": "Approved" })
+	for hugo_gene in hugo_genes:
+		gene_id = hugo_gene['ensembl_gene_id']
+		gene_name = hugo_gene['symbol']
+		gene_id_to_hugo_name[gene_id] = gene_name
+	return gene_id_to_hugo_name
 
 
 def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
@@ -141,14 +226,26 @@ def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 	omim_sets = OmimSets(db)
 	essential_sets = EssentialSets(db)
 
+	transcript_ccrs = get_transcript_ccrs(db)
+	transcript_lengths = get_transcript_lengths(db)
+	transcript_id_to_gene_id = get_transcript_id_to_gene_id_dict(db)
+	gene_id_to_hugo_name = get_gene_id_to_hugo_name(db)
+
 	for gevir_gene in gevir_genes:
 		gene_score = GeneScore()
 		transcript_id = gevir_gene['_id']
 		gene_score.gene_name = gevir_gene['gene_name']
 		gene_score.canonical_transcript = gevir_gene['_id']
+		gene_id = transcript_id_to_gene_id[transcript_id]
+		gene_score.gene_id = gene_id
+		
+		if gene_id in gene_id_to_hugo_name:
+			gene_score.approved_symbol = gene_id_to_hugo_name[gene_id]
+
+		gene_score.length = transcript_lengths[transcript_id]
 
 		if include_gene_groups:
-			gene_score.include_gene_groups == True
+			gene_score.include_gene_groups = True
 			if transcript_id in omim_sets.ad:
 				gene_score.ad = 'Y'
 			if transcript_id in omim_sets.ar:
@@ -161,6 +258,9 @@ def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 				gene_score.cell_non_essential = 'Y'
 			if transcript_id in essential_sets.mouse_het_lethal:
 				gene_score.mouse_het_lethal = 'Y'
+
+			if transcript_id in transcript_ccrs:
+				gene_score.ccrs_gte_95 = transcript_ccrs[transcript_id]
 
 		gnomad_gene = db.gevir.gnomad_scores.find_one({'_id': transcript_id})
 		if not gnomad_gene['no_issues']:
@@ -212,20 +312,10 @@ def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 	# Consider only genes which have scores
 	omim_ad_set = omim_ad_set & set(gene_scores.keys())
 	omim_ar_set = omim_ar_set & set(gene_scores.keys())
-	null_set = db.gevir.mac_arthur_gene_lists.find_one({'_id': 'lof_tolerant'})
-	null_set = set(null_set['transcript_ids']) & set(gene_scores.keys())
 
 	ad_num = len(omim_ad_set)
 	ar_num = len(omim_ar_set)
-	null_num = len(null_set)
 	all_num = len(gene_scores.keys())
-	not_ad_num = all_num - ad_num
-	not_ar_num = all_num - ar_num
-	not_null_num = all_num - null_num
-
-	ad_rate = ad_num / float(all_num)
-	ar_rate = ar_num / float(all_num)
-	null_rate = null_num / float(all_num)
 
 	gevir_transcripts = gevir_percentiles.keys()
 	oe_lof_transcripts = oe_lof_percentiles.keys()
@@ -233,7 +323,7 @@ def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 
 	gene_num = len(gene_scores)
 
-	fold_enrichments = []
+	temp_data = {}
 	total_lines = gene_num
 	line_number = 0
 	bar = progressbar.ProgressBar(maxval=1.0).start()
@@ -248,56 +338,67 @@ def export_gene_scores(db, enrichment_offset=1000, include_gene_groups=False):
 		else:
 			start -= 1
 
+		# Add 1 to start to include first gene which has 0 index in the list
+		examined_range = '{:.2f}-{:.2f}%'.format(float(start + 1) * 100 / gene_num, float(stop) * 100 / gene_num)
+
+
 		gevir_window = set(gevir_transcripts[start:stop])
+		gevir_window_num = len(gevir_window)
+
 		gevir_transcript = gevir_transcripts[x]
 		gevir_ad_num = len(omim_ad_set & gevir_window)
-		gevir_not_ad_num = len(gevir_window) - gevir_ad_num
 		gevir_ar_num = len(omim_ar_set & gevir_window)
-		gevir_not_ar_num = len(gevir_window) - gevir_ar_num
-		gevir_null_num = len(omim_ar_set & gevir_window)
-		gevir_not_null_num = len(gevir_window) - gevir_null_num
-		gene_scores[gevir_transcript].gevir_ad_enrichment = float(len(omim_ad_set & gevir_window)) / len(gevir_window) / ad_rate
-		gene_scores[gevir_transcript].gevir_ar_enrichment = float(len(omim_ar_set & gevir_window)) / len(gevir_window) / ar_rate
-		gene_scores[gevir_transcript].gevir_null_enrichment = float(len(null_set & gevir_window)) / len(gevir_window) / null_rate		
-		gene_scores[gevir_transcript].gevir_ad_p = fisher_exact([[gevir_ad_num, gevir_not_ad_num],[ad_num, not_ad_num]])[1]
-		gene_scores[gevir_transcript].gevir_ar_p = fisher_exact([[gevir_ar_num, gevir_not_ar_num],[ar_num, not_ar_num]])[1]
-		gene_scores[gevir_transcript].gevir_null_p = fisher_exact([[gevir_null_num, gevir_not_null_num],[ar_num, not_null_num]])[1]
+
+		gene_scores[gevir_transcript].gevir_ex_group_range = examined_range
+		gene_scores[gevir_transcript].gevir_ad_enrichment, gene_scores[gevir_transcript].gevir_ad_p = fisher_exact([[gevir_ad_num, gevir_window_num],[ad_num, all_num]])
+		gene_scores[gevir_transcript].gevir_ar_enrichment, gene_scores[gevir_transcript].gevir_ar_p = fisher_exact([[gevir_ar_num, gevir_window_num],[ar_num, all_num]])
+
+		gene_scores[gevir_transcript].gevir_ex_group_ad_num = gevir_ad_num
+		gene_scores[gevir_transcript].gevir_ex_group_ar_num = gevir_ar_num
+		gene_scores[gevir_transcript].gevir_ex_group_all_num = gevir_window_num
+
+		# Note reference group stats the same for all ranking lists
+		gene_scores[gevir_transcript].ref_group_ad_num = ad_num
+		gene_scores[gevir_transcript].ref_group_ar_num = ar_num
+		gene_scores[gevir_transcript].ref_group_all_num = all_num
+
 
 		oe_lof_window = set(oe_lof_transcripts[start:stop])
+		oe_lof_window_num = len(oe_lof_window)
 		oe_lof_transcript = oe_lof_transcripts[x]
 		oe_lof_ad_num = len(omim_ad_set & oe_lof_window)
-		oe_lof_not_ad_num = len(oe_lof_window) - oe_lof_ad_num
 		oe_lof_ar_num = len(omim_ar_set & oe_lof_window)
-		oe_lof_not_ar_num = len(oe_lof_window) - oe_lof_ar_num
-		oe_lof_null_num = len(null_set & oe_lof_window)
-		oe_lof_not_null_num = len(oe_lof_window) - oe_lof_null_num
-		gene_scores[oe_lof_transcript].oe_lof_ad_enrichment = float(len(omim_ad_set & oe_lof_window)) / len(oe_lof_window) / ad_rate
-		gene_scores[oe_lof_transcript].oe_lof_ar_enrichment = float(len(omim_ar_set & oe_lof_window)) / len(oe_lof_window) / ar_rate
-		gene_scores[oe_lof_transcript].oe_lof_null_enrichment = float(len(null_set & oe_lof_window)) / len(oe_lof_window) / null_rate
-		gene_scores[oe_lof_transcript].oe_lof_ad_p = fisher_exact([[oe_lof_ad_num, oe_lof_not_ad_num],[ad_num, not_ad_num]])[1]
-		gene_scores[oe_lof_transcript].oe_lof_ar_p = fisher_exact([[oe_lof_ar_num, oe_lof_not_ar_num],[ar_num, not_ar_num]])[1]
-		gene_scores[oe_lof_transcript].oe_lof_null_p = fisher_exact([[oe_lof_null_num, oe_lof_not_null_num],[null_num, not_null_num]])[1]
+
+		gene_scores[oe_lof_transcript].oe_lof_ex_group_range = examined_range
+		gene_scores[oe_lof_transcript].oe_lof_ad_enrichment, gene_scores[oe_lof_transcript].oe_lof_ad_p = fisher_exact([[oe_lof_ad_num, oe_lof_window_num],[ad_num, all_num]])
+		gene_scores[oe_lof_transcript].oe_lof_ar_enrichment, gene_scores[oe_lof_transcript].oe_lof_ar_p = fisher_exact([[oe_lof_ar_num, oe_lof_window_num],[ar_num, all_num]])
+
+		gene_scores[oe_lof_transcript].oe_lof_ex_group_ad_num = oe_lof_ad_num
+		gene_scores[oe_lof_transcript].oe_lof_ex_group_ar_num = oe_lof_ar_num
+		gene_scores[oe_lof_transcript].oe_lof_ex_group_all_num = oe_lof_window_num
+
 
 		gevir_and_oe_lof_window = set(gevir_and_oe_lof_transcripts[start:stop])
+		gevir_and_oe_lof_window_num = len(gevir_and_oe_lof_window)
 		gevir_and_oe_lof_transcript = gevir_and_oe_lof_transcripts[x]
 		gevir_and_oe_lof_ad_num = len(omim_ad_set & gevir_and_oe_lof_window)
-		gevir_and_oe_lof_not_ad_num = len(gevir_and_oe_lof_window) - gevir_and_oe_lof_ad_num
 		gevir_and_oe_lof_ar_num = len(omim_ar_set & gevir_and_oe_lof_window)
-		gevir_and_oe_lof_not_ar_num = len(gevir_and_oe_lof_window) - gevir_and_oe_lof_ar_num
-		gevir_and_oe_lof_null_num = len(null_set & gevir_and_oe_lof_window)
-		gevir_and_oe_lof_not_null_num = len(gevir_and_oe_lof_window) - gevir_and_oe_lof_null_num
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ad_enrichment = float(len(omim_ad_set & gevir_and_oe_lof_window)) / len(gevir_and_oe_lof_window) / ad_rate
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ar_enrichment = float(len(omim_ar_set & gevir_and_oe_lof_window)) / len(gevir_and_oe_lof_window) / ar_rate
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_null_enrichment = float(len(null_set & gevir_and_oe_lof_window)) / len(gevir_and_oe_lof_window) / null_rate
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ad_p = fisher_exact([[gevir_and_oe_lof_ad_num, gevir_and_oe_lof_not_ad_num],[ad_num, not_ad_num]])[1]
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ar_p = fisher_exact([[gevir_and_oe_lof_ar_num, gevir_and_oe_lof_not_ar_num],[ar_num, not_ar_num]])[1]
-		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_null_p = fisher_exact([[gevir_and_oe_lof_null_num, gevir_and_oe_lof_not_null_num],[ar_num, not_null_num]])[1]
+
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ex_group_range = examined_range
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ad_enrichment, gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ad_p = fisher_exact([[gevir_and_oe_lof_ad_num, gevir_and_oe_lof_window_num],[ad_num, all_num]])
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ar_enrichment, gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ar_p = fisher_exact([[gevir_and_oe_lof_ar_num, gevir_and_oe_lof_window_num],[ar_num, all_num]])
+
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ex_group_ad_num = gevir_and_oe_lof_ad_num
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ex_group_ar_num = gevir_and_oe_lof_ar_num
+		gene_scores[gevir_and_oe_lof_transcript].gevir_and_oe_lof_ex_group_all_num = gevir_and_oe_lof_window_num
+
 		line_number += 1
 		bar.update((line_number + 0.0) / total_lines)
 	bar.finish()
 
 	# Write results to csv and database
 	ex_gene_score = GeneScore()
+	ex_gene_score.include_gene_groups = include_gene_groups
 	ex_gene_score = ex_gene_score.get_dictionary()
 	headers = ex_gene_score.keys()
 	table = [headers]
@@ -598,8 +699,8 @@ def main():
 	# enrichment_offset is used to calculate AD/AR fold-enrichment
 	# 5% offset = 18,352 / 20 ~= 918
 	# 5% offset = 19,361 / 20 ~= 968
-	# Supplementary Table S5
-	export_gene_scores(db, enrichment_offset=AD_AR_ENRICHMENT_OFFSET)
+	# Supplementary Table 2
+	export_gene_scores(db, enrichment_offset=AD_AR_ENRICHMENT_OFFSET, include_gene_groups=True)
 
 	# Exports datasets required to build the website
 	#export_gene_identifiers(db)
